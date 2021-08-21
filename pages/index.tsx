@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           <div className="swiper-pagination absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-10" />
           <div className="relative pt-140 pb-40 lg:pt-300 lg:pb-200 w-full h-full z-10">
             <div className="container mx-auto">
-              <div className="inline-block rounded-lg text-white my-30 pt-20 px-30 pb-30 bg-black bg-opacity-30">
+              <div className="inline-block rounded-lg text-white my-30 pt-20 px-30 pb-30 bg-black bg-opacity-40">
                 <h1 className="text-32 md:text-44 mb-30">Quality. Efficient. Affordable</h1>
                 <div className="text-14 font-medium mb-40">
                   <p className="mb-20">Are you looking to get a quote on an upcoming Hardscape project?</p>
@@ -58,6 +58,29 @@ const Home: NextPage = () => {
                 <div className="btn-wrapper">
                   <Link href="/request-estimate" passHref><button className="btn btn-primary">Request Estimate</button></Link>
                   <Link href="/patio-packages" passHref><button className="btn btn-warning">Patio Packages</button></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="pt-60 pb-60 md:pb-100">
+          <div className="container mx-auto">
+            <h2 className="text-44 text-light-500 text-center mb-40 lg:mb-80">About Us</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+              <div className="order-2 lg:order-1 text-center lg:text-left flex items-center">
+                <div>
+                  <h3 className="text-30 text-light-500 font-bold mb-45">The History of<br/> J & D Landscaping</h3>
+                  <p className="text-light-400 font-medium mb-50 lg:max-w-455">In 2003 at the age of 16, Joseph D. Masciovecchio started his dream of becoming an entrepreneur and opened up his company “J&D Landscaping” which was known as “J&D Snow Removal and Lawn Care” in the early days.</p>
+                  <div>
+                    <Link href="/about" passHref>
+                      <button className="btn btn-primary btn-sm-block">Learn more</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="order-1 lg:order-2 mb-30">
+                <div className="max-w-670 mx-auto">
+                  <Image src="/assets/images/home/history.png" width={670} height={390} layout="responsive" placeholder="blur" blurDataURL="/assets/images/home/history-blur.png" alt="History"  />
                 </div>
               </div>
             </div>

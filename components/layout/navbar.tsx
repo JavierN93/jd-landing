@@ -62,12 +62,12 @@ export function Navbar({ isSticky }: Props) {
               ))}
               <li className="nav-link hidden xl:flex items-center">
                 <Link href="/request-estimate" passHref>
-                  <button className="btn btn-primary btn-md ml-20">Request Estimate</button>
+                  <button className="btn btn-primary btn-md ml-10">Request Estimate</button>
                 </Link>
               </li>
               {
                 isSticky &&
-                  <li className="nav-link hidden xl:block">
+                  <li className="nav-link hidden xl:flex items-center">
                     <Link href={process.env.loginPageUrl || 'http://localhost:4200'} passHref>
                       <button className="btn btn-warning btn-md ml-20">Log in</button>
                     </Link>
