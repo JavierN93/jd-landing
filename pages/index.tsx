@@ -8,6 +8,7 @@ import { Layout } from '../components/layout/layout';
 import { MarketplaceSection } from '../components/landing/marketplace-section';
 import { DesignSection } from '../components/landing/design-section';
 import { shimmerUrl } from '../components/ui-kit/common/blur-image';
+import { RequestEstimateSection } from '../components/landing/request-estimate-section';
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -23,6 +24,34 @@ const carouselImages = [
   {
     main: '/assets/images/home/carousel-3.jpg',
     blur: '/assets/images/home/carousel-3-blur.png'
+  },
+];
+
+const testimonial = [
+  {
+    text: 'J & D Landscaping is a wonderful company to work with. We had a patio installed and it looks fantastic.  Nick has great vision on what the project will look like. He is a true artist. The team does high quality work and it shows....not just in their final product but also the process and how they worked the equipment. They were very respectful of the property. They are highly recommended and just great people to work with.',
+    name: 'Melanie Ho',
+    address: ''
+  },
+  {
+    text: 'The work they performed was excellent. The before and after on my patio is truly astonishing.',
+    name: 'Tyler Wheelock',
+    address: ''
+  },
+  {
+    text: 'J & D Landscaping did a fabulous job on our patio! We couldn\'t be happier! They are very professional and workmanship is top notch. I highly recommend them!',
+    name: 'Kenneth Cajigas',
+    address: ''
+  },
+  {
+    text: 'JD does excellent work. His work has tremendous style and they let you pick whatever materials you want. His crew is also extremely efficient which is nice nowadays. My patio and retaining wall came out great. His pricing is also fair, not out of control and expensive right in the middle somewhere.',
+    name: 'Santiago Garcia',
+    address: ''
+  },
+  {
+    text: 'This has to be the best company I have ever worked with. Very professional, extremely fast, able to fit me in on a busy schedule, arrived early, constantly communicated and the paver patio I had done turned out perfect. Came with an excellent warranty. Price was lower than 6 different quotes I received! I could not ask for more. Extremely satisfied!',
+    name: 'Joshua Lamb',
+    address: ''
   },
 ];
 
@@ -142,6 +171,30 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+        <section className="py-60 lg:py-100">
+          <div className="container mx-auto text-center">
+            <h2 className="text-25 font-medium md:text-33 md:font-normal lg:text-44 text-light-500 mb-40">They trust us</h2>
+            <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">Join the over <b className="text-primary">25K followers</b> on instagram to see the most recent jobs we have completed</p>
+            <Swiper className="" spaceBetween={ 0 } slidesPerView={ 1 } autoplay={{ delay: 4000 }} pagination={{ el: `.swiper-pagination`, type: 'bullets' }}>
+              {
+                testimonial.map((content, index) => (
+                  <SwiperSlide key={index}>
+                    <div className="max-w-780 mx-auto rounded-lg bg-primary text-center px-70 py-60">
+                      <div className="w-45 mx-auto mb-40">
+                        <Image src="/assets/images/icons/quote.svg" width={46} height={32} layout="responsive" alt="Quote" />
+                      </div>
+                      <div className="text-16 text-white">
+                        <p className="font-medium mb-50">{content.text}</p>
+                        <p className="font-bold">{content.name}</p>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))
+              }
+            </Swiper>
+          </div>
+        </section>
+        <RequestEstimateSection />
       </Layout>
     </>
   )
