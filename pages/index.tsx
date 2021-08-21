@@ -86,6 +86,24 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+        <section className="bg-light-50 py-60 lg:py-100">
+          <div className="container mx-auto text-center">
+            <h2 className="text-44 text-light-500 mb-40 lg:mb-80">How our platform works</h2>
+            <div className="flex flex-col">
+              <div className="order-2 lg:order-1">
+                <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">A hardscaping project is an investment, it takes time to plan, coordinate, budget, design and so much more. It’s a process that has many steps, given our experience and expertise in the Hardscape industry and our passion for efficiency we have digitized much of this process to help provide customers a better experience even before their project starts.</p>
+                <div>
+                  <Link href="/why-choose-us/project-management" passHref>
+                    <button className="btn btn-primary btn-sm-block">Learn more</button>
+                  </Link>
+                </div>
+              </div>
+              <div className="order-1 lg:order-2 mt-0 mb-30 lg:mt-70 lg:mb-0">
+                <Image src="/assets/images/home/laptop.png" width={2000} height={1298} layout="responsive" placeholder="blur" blurDataURL="/assets/images/home/laptop-blur.png" alt="History"  />
+              </div>
+            </div>
+          </div>
+        </section>
       </Layout>
     </>
   )
