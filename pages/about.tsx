@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { NextPage } from 'next';
 import { Layout } from '../components/layout/layout';
 import { Jumbotron } from '../components/landing/jumbotron';
+import { RequestEstimateSection } from '../components/landing/request-estimate-section';
 
 const timeline = [
   {
@@ -88,7 +89,7 @@ const About: NextPage = () => {
             </div>
           </div>
         </section>
-
+        <RequestEstimateSection />
       </Layout>
     </>
   );
