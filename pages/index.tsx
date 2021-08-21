@@ -104,6 +104,17 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
+        <section className="py-60 lg:py-100">
+          <div className="container mx-auto text-center">
+            <h2 className="text-44 text-light-500 mb-40 lg:mb-80">Our Installation Services</h2>
+            <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">J & D Landscaping provides a line of services within the Hardscape industry, with thousands of projects completed and over 16 years in business we are leaders in the industry and are considered hardscape specialists. Please view our services and projects below.</p>
+          </div>
+          <div className="container text-center">
+            <Link href="/idea-board" passHref>
+              <button className="btn btn-primary btn-sm-block">Idea Board</button>
+            </Link>
+          </div>
+        </section>
       </Layout>
     </>
   )
