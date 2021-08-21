@@ -5,6 +5,7 @@ import type { NextPage } from 'next'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from 'swiper/core';
 import { Layout } from '../components/layout/layout';
+import { MarketplaceSection } from '../components/landing/marketplace-section';
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -115,6 +116,7 @@ const Home: NextPage = () => {
             </Link>
           </div>
         </section>
+        <MarketplaceSection />
       </Layout>
     </>
   )
