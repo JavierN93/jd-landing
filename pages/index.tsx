@@ -7,6 +7,7 @@ import SwiperCore, { Autoplay, Pagination } from 'swiper/core';
 import { Layout } from '../components/layout/layout';
 import { MarketplaceSection } from '../components/landing/marketplace-section';
 import { DesignSection } from '../components/landing/design-section';
+import { shimmerUrl } from '../components/ui-kit/common/blur-image';
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -23,6 +24,14 @@ const carouselImages = [
     main: '/assets/images/home/carousel-3.jpg',
     blur: '/assets/images/home/carousel-3-blur.png'
   },
+];
+
+const partners = [
+  { image: '/assets/images/logos/icpi.svg', name: 'icpi', width: 106, height: 90 },
+  { image: '/assets/images/logos/techo-pro.svg', name: 'techo-pro', width: 155, height: 68 },
+  { image: '/assets/images/logos/belgard.svg', name: 'belgard', width: 157, height: 63 },
+  { image: '/assets/images/logos/versalok.svg', name: 'versalok', width: 156, height: 63 },
+  { image: '/assets/images/logos/cambridge.svg', name: 'cambridge', width: 177, height: 63 },
 ];
 
 const Home: NextPage = () => {
@@ -119,6 +128,20 @@ const Home: NextPage = () => {
         </section>
         <DesignSection />
         <MarketplaceSection />
+        <section className="bg-light-50 py-60 lg:py-100">
+          <div className="container mx-auto text-center">
+            <h2 className="text-25 font-medium md:text-33 md:font-normal lg:text-44 text-light-500 mb-40 lg:mb-80">Quality you can Trust at a price you can Afford</h2>
+            <div className="flex justify-around items-center flex-wrap">
+              {
+                partners.map((item, i) => (
+                  <div key={i} className="w-1/2 md:w-1/5 flex justify-center mb-50 lg:mb-0">
+                    <Image src={item.image} height={item.height} width={item.width} alt={item.name} placeholder="blur" blurDataURL={shimmerUrl}/>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </section>
       </Layout>
     </>
   )
