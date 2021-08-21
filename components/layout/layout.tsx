@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Navbar } from './navbar';
 import { Header } from './header';
+import { Footer } from './footer';
 
 interface Props {
   children: any;
@@ -21,7 +22,7 @@ export function Layout(props: Props) {
       <Header isSticky={sticky} />
       <Navbar isSticky={sticky} />
       <section id="root" className="main-content-wrapper z-0">{props.children}</section>
-      {/*<Footer />*/}
+      <Footer />
     </>
   );
 }

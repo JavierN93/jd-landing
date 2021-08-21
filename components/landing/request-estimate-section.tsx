@@ -8,16 +8,16 @@ export function RequestEstimateSection() {
         <Image src="/assets/images/cta-estimate/cta-estimate-bg.jpg" alt="Request Estimate" layout="fill"
                quality={100} placeholder="blur" blurDataURL="/assets/images/cta-estimate/cta-estimate-bg-blur.png" objectFit="cover"/>
       </div>
-      <div className="container mx-auto relative z-10 py-120">
+      <div className="container mx-auto relative z-10 py-50 lg:py-120">
         <div className="flex-col lg:flex lg:flex-row items-center">
           <div className="max-w-full lg:max-w-695 text-white mb-40 text-center lg:text-left">
-            <h3 className="text-45 mb-15">Quality. Efficient. Affordable.</h3>
+            <h3 className="text-32 md:text-44 mb-15">Quality. Efficient. Affordable.</h3>
             <p className="text-16">Now is the time to start planning your Hardscaping project, it&apos;s simple,
               easy and free. To get started today simply request a free estimate.</p>
           </div>
           <div className="flex-grow text-center lg:text-right">
             <Link href="https://jdlandscaping.net/request-estimate" passHref>
-              <button className="btn btn-primary btn-lg">Request Estimate</button>
+              <button className="btn btn-primary btn-sm-block">Request Estimate</button>
             </Link>
           </div>
         </div>

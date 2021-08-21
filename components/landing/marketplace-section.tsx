@@ -12,11 +12,11 @@ export function MarketplaceSection() {
           <div className="flex-grow max-w-1000">
             <Image src="/assets/images/cta-marketplace/cta-marketplace-image.png" width={853} height={456} alt="Marketplace Service" layout="responsive" quality={100} placeholder="blur" blurDataURL="/assets/images/cta-marketplace/cta-marketplace-image-blur.png"/>
           </div>
-          <div className="text-white text-center lg:text-right max-w-full lg:max-w-345">
-            <h2 className="text-44 font-medium mb-10">Marketplace</h2>
+          <div className="text-white text-center lg:text-right w-full lg:max-w-345">
+            <h2 className="text-32 md:text-44 font-medium mb-10">Marketplace</h2>
             <p className="text-18 font-medium mb-40">Get a quote for materials</p>
             <Link href="https://marketplace.jdlandscaping.net" passHref>
-              <button className="btn bg-white text-primary">Learn more</button>
+              <button className="btn bg-white text-primary btn-sm-block">Learn more</button>
             </Link>
           </div>
         </div>

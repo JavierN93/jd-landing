@@ -38,6 +38,10 @@ html {
   @apply h-30 px-15 py-5 text-10 rounded-md;
 }
 
+.bg-gray {
+  background-color: #0e0e0e;
+}
+
 /* swiper */
 .swiper-pagination-bullet {
   @apply bg-white bg-opacity-60 w-10 h-10 rounded-full mx-5;

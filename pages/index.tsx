@@ -105,7 +105,7 @@ const Home: NextPage = () => {
         </section>
         <section className="pt-60 pb-60 md:pb-100">
           <div className="container mx-auto">
-            <h2 className="text-44 text-light-500 text-center mb-40 lg:mb-80">About Us</h2>
+            <h2 className="text-32 md:text-44 text-light-500 text-center mb-40 lg:mb-80">About Us</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="order-2 lg:order-1 text-center lg:text-left flex items-center">
                 <div>
@@ -128,7 +128,7 @@ const Home: NextPage = () => {
         </section>
         <section className="bg-light-50 py-60 lg:py-100">
           <div className="container mx-auto text-center">
-            <h2 className="text-44 text-light-500 mb-40 lg:mb-80">How our platform works</h2>
+            <h2 className="text-32 md:text-44 text-light-500 mb-40 lg:mb-80">How our platform works</h2>
             <div className="flex flex-col">
               <div className="order-2 lg:order-1">
                 <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">A hardscaping project is an investment, it takes time to plan, coordinate, budget, design and so much more. It’s a process that has many steps, given our experience and expertise in the Hardscape industry and our passion for efficiency we have digitized much of this process to help provide customers a better experience even before their project starts.</p>
@@ -146,10 +146,10 @@ const Home: NextPage = () => {
         </section>
         <section className="py-60 lg:py-100">
           <div className="container mx-auto text-center">
-            <h2 className="text-44 text-light-500 mb-40 lg:mb-80">Our Installation Services</h2>
+            <h2 className="text-32 md:text-44 text-light-500 mb-40 lg:mb-80">Our Installation Services</h2>
             <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">J & D Landscaping provides a line of services within the Hardscape industry, with thousands of projects completed and over 16 years in business we are leaders in the industry and are considered hardscape specialists. Please view our services and projects below.</p>
           </div>
-          <div className="container text-center">
+          <div className="container mx-auto text-center">
             <Link href="/idea-board" passHref>
               <button className="btn btn-primary btn-sm-block">Idea Board</button>
             </Link>
@@ -159,7 +159,7 @@ const Home: NextPage = () => {
         <MarketplaceSection />
         <section className="bg-light-50 py-60 lg:py-100">
           <div className="container mx-auto text-center">
-            <h2 className="text-25 font-medium md:text-33 md:font-normal lg:text-44 text-light-500 mb-40 lg:mb-80">Quality you can Trust at a price you can Afford</h2>
+            <h2 className="text-25 md:text-33 lg:text-44 text-light-500 mb-40 lg:mb-80">Quality you can Trust at a price you can Afford</h2>
             <div className="flex justify-around items-center flex-wrap">
               {
                 partners.map((item, i) => (
@@ -173,13 +173,13 @@ const Home: NextPage = () => {
         </section>
         <section className="py-60 lg:py-100">
           <div className="container mx-auto text-center">
-            <h2 className="text-25 font-medium md:text-33 md:font-normal lg:text-44 text-light-500 mb-40">They trust us</h2>
+            <h2 className="text-32 md:text-44 text-light-500 mb-40">They trust us</h2>
             <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">Join the over <b className="text-primary">25K followers</b> on instagram to see the most recent jobs we have completed</p>
             <Swiper className="" spaceBetween={ 0 } slidesPerView={ 1 } autoplay={{ delay: 4000 }} pagination={{ el: `.swiper-pagination`, type: 'bullets' }}>
               {
                 testimonial.map((content, index) => (
                   <SwiperSlide key={index}>
-                    <div className="max-w-780 mx-auto rounded-lg bg-primary text-center px-70 py-60">
+                    <div className="max-w-780 mx-auto rounded-lg bg-primary text-center px-20 lg:px-70 py-30 lg:py-60">
                       <div className="w-45 mx-auto mb-40">
                         <Image src="/assets/images/icons/quote.svg" width={46} height={32} layout="responsive" alt="Quote" />
                       </div>
