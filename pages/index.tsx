@@ -36,13 +36,13 @@ const Home: NextPage = () => {
             {
               carouselImages.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <Image className="h-full" src={image.main} width={1440} height={800} layout="fill" objectFit="cover" alt="Jumbotron" placeholder="blur" blurDataURL={image.blur} />
+                  <Image className="h-full" src={image.main} layout="fill" objectFit="cover" alt="Jumbotron" placeholder="blur" blurDataURL={image.blur} />
                 </SwiperSlide>
               ))
             }
           </Swiper>
           <div className="swiper-pagination absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-10" />
-          <div className="relative absolute w-full h-full top-0 z-10">
+          <div className="relative pt-140 pb-40 lg:pt-300 lg:pb-200 w-full h-full z-10">
             <div className="container mx-auto">
               <div className="inline-block rounded-lg text-white my-30 pt-20 px-30 pb-30 bg-black bg-opacity-30">
                 <h1 className="text-32 md:text-44 mb-30">Quality. Efficient. Affordable</h1>
