@@ -5,3 +5,29 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+.btn {
+  @apply text-14 font-bold h-45 px-20 rounded-md;
+}
+
+.btn-wrapper {
+  @apply flex flex-col gap-y-15 md:flex-row md:gap-x-15;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-200 focus:ring-primary-75 text-white;
+}
+
+.btn-warning {
+  @apply bg-warning hover:bg-warning-200 focus:ring-warning-75 text-white;
+}
+
+
+/* swiper */
+.swiper-pagination-bullet {
+  @apply bg-white bg-opacity-60 w-10 h-10 rounded-full mx-5;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-opacity-100;
+}

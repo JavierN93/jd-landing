@@ -67,6 +67,14 @@ module.exports = {
         500: '#2C2C2C',
       },
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '6rem',
+      },
+    },
     fontSize: {
       ...range(minFontSize, maxFontSize).reduce((merged, f) => ({ ...merged, [f]: `${f}px`}), {})
     },
