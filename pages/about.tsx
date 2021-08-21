@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
 import { NextPage } from 'next';
 import { Layout } from '../components/layout/layout';
 import { Jumbotron } from '../components/landing/jumbotron';
 import { RequestEstimateSection } from '../components/landing/request-estimate-section';
+import HistoryTimeline from '../components/landing/history-timeline';
 
 const timeline = [
   {
@@ -13,6 +13,7 @@ const timeline = [
         label: '2004',
         text: 'In 2004, after saving enough money from snow and lawn the year before, Joe then purchased his first Bobcat Skid steer and entered the Hardscape business by completing small walkways and small patios after school. Joe quickly realized that he had a passion for the Hardscape industry and enjoyed the fact that each job was its own custom project that has to be detailed and designed for each customer’s taste.',
         image: '/assets/images/about/2004.png',
+        height: 483,
         blur: '/assets/images/about/2004-blur.png',
       },
       {
@@ -25,6 +26,7 @@ const timeline = [
         label: '2007',
         text: 'In 2007, Joe’s brother, Nick Masciovecchio joined J&D Landscaping and has been a huge part in taking the business to the next level. With Nick’s many skills which include but are not limited to, his attention to detail attitude, precise cutting skills and superior customer service, Nick has taken on a leadership role with the company and continues to strive with each completed project.',
         image: '/assets/images/about/2007.png',
+        height: 483,
         blur: '/assets/images/about/2007-blur.png',
       },
       {
@@ -55,33 +57,7 @@ const About: NextPage = () => {
                 <p>The company started by focusing only on lawns and snow removal. However within the first year of business, Joe realized that he wanted more of a challenge than simply mowing a lawn or pushing snow.</p>
               </div>
             </div>
-            <div className="relative mb-100 mt-50 max-w-1200 mx-auto">
-              {
-                timeline.map((group, timelineIndex) => (
-                  <div key={timelineIndex}>
-                    <div className="relative flex justify-around flex-col pl-30 md:pl-0 md:flex-row pt-0">
-                      <span className="point point-start md:left-1/2 top-0" />
-                      <div className="text-primary text-16 font-medium pt-20" />
-                    </div>
-                    {
-                      group.events.map((item, itemIndex) => (
-                        <div key={itemIndex} className={'relative flex justify-around flex-col pl-30 md:pl-0 pt-70 ' + (itemIndex % 2 === 1 ? 'md:flex-row-reverse' : 'md:flex-row')}>
-                          <span className="point md:left-1/2 top-70" />
-                          { !(timelineIndex === (timeline.length - 1) && itemIndex === (group.events.length - 1)) && <span className="point-line md:left-1/2" /> }
-                          <div className={'flex flex-col items-start md:w-2/5 ' + (itemIndex % 2 === 1 ? 'md:items-start' : 'md:items-end')}>
-                            <div className="text-30 font-bold leading-34 h-45 text-primary">{ item.label }</div>
-                            <div className="text-light-500 p-25 rounded-md bg-white shadow-md" dangerouslySetInnerHTML={{ __html: item.text }} />
-                          </div>
-                          <div className="pt-40 md:w-2/5">
-                            <Image layout="responsive" src={item.image} width={440} height={230} alt={item.label} placeholder="blur" blurDataURL={item.blur}  />
-                          </div>
-                        </div>
-                      ))
-                    }
-                  </div>
-                ))
-              }
-            </div>
+            <HistoryTimeline timeline={timeline} />
             <div className="text-center">
               <Link href="/why-choose-us" passHref>
                 <button className="btn btn-primary btn-sm-block">Why Choose us</button>
