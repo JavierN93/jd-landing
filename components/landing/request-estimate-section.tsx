@@ -8,7 +8,7 @@ export function RequestEstimateSection() {
         <Image src="/assets/images/cta-estimate/cta-estimate-bg.jpg" alt="Request Estimate" layout="fill"
                quality={100} placeholder="blur" blurDataURL="/assets/images/cta-estimate/cta-estimate-bg-blur.png" objectFit="cover"/>
       </div>
-      <div className="container mx-auto relative z-10 py-50 lg:py-120">
+      <div className="container mx-auto relative z-10 py-50 lg:py-80">
         <div className="flex-col lg:flex lg:flex-row items-center">
           <div className="max-w-full lg:max-w-695 text-white mb-40 text-center lg:text-left">
             <h3 className="text-32 md:text-44 mb-15">Quality. Efficient. Affordable.</h3>
