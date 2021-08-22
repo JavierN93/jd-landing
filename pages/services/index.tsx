@@ -5,6 +5,7 @@ import { Jumbotron } from '../../components/landing/jumbotron';
 import { DesignSection } from '../../components/landing/cta/design-section';
 import { MarketplaceSection } from '../../components/landing/cta/marketplace-section';
 import { InstallationSection } from '../../components/landing/cta/installation-section';
+import { RequestEstimateSection } from '../../components/landing/cta/request-estimate-section';
 
 const Services: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Services: NextPage = () => {
           <DesignSection />
           <MarketplaceSection />
         </section>
+        <RequestEstimateSection />
       </Layout>
     </>
   );
