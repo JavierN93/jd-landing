@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { NextPage } from 'next';
 import { Layout } from '../components/layout/layout';
 import { Jumbotron } from '../components/landing/jumbotron';
-import { RequestEstimateSection } from '../components/landing/request-estimate-section';
+import { RequestEstimateSection } from '../components/landing/cta/request-estimate-section';
 import HistoryTimeline from '../components/landing/history-timeline';
 
 const timeline = [

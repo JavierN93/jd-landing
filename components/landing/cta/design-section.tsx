@@ -16,7 +16,7 @@ export function DesignSection() {
               <button className="btn bg-white text-primary btn-sm-block">Learn more</button>
             </Link>
           </div>
-          <div className="flex-grow max-w-1000">
+          <div className="flex-grow max-w-770 pt-0 lg:pt-60">
             <Image src="/assets/images/cta-design/cta-design-image.png" width={853} height={456} alt="Design Service" layout="responsive" quality={100} placeholder="blur" blurDataURL="/assets/images/cta-design/cta-design-image-blur.png"/>
           </div>
         </div>

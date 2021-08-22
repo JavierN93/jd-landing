@@ -5,10 +5,10 @@ import type { NextPage } from 'next'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from 'swiper/core';
 import { Layout } from '../components/layout/layout';
-import { MarketplaceSection } from '../components/landing/marketplace-section';
-import { DesignSection } from '../components/landing/design-section';
+import { MarketplaceSection } from '../components/landing/cta/marketplace-section';
+import { DesignSection } from '../components/landing/cta/design-section';
 import { shimmerUrl } from '../components/ui-kit/common/blur-image';
-import { RequestEstimateSection } from '../components/landing/request-estimate-section';
+import { RequestEstimateSection } from '../components/landing/cta/request-estimate-section';
 
 SwiperCore.use([Autoplay, Pagination]);
 
