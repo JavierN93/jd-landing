@@ -11,7 +11,7 @@ html {
 }
 
 .btn {
-  @apply text-14 font-bold h-45 px-20 rounded-md;
+  @apply text-14 font-bold h-45 px-20 rounded-md disabled:opacity-50 disabled:cursor-not-allowed;
 }
 
 .btn-sm-block {
@@ -90,4 +90,32 @@ html {
   height: 100%;
   width: 2px;
   background-color: #07A39D;
+}
+
+/* spinner */
+.spinner .path {
+  stroke: #07A39D;
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
 }
