@@ -13,9 +13,11 @@ import { Input } from '../components/ui-kit/input/input';
 import { PhoneInput } from '../components/ui-kit/input/phone-input';
 import { DropdownSelect } from '../components/ui-kit/input/dropdown-select';
 import { TextArea } from '../components/ui-kit/input/textarea';
+import useAlert from '../components/ui-kit/dialog/use-alert';
 
 const Contact: NextPage = () => {
   const sourceFoundUsOptions = enumToOptions<SourceFoundUs>(SourceFoundUs);
+  const alertService = useAlert();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const schema = Yup.object().shape({
     fullName: Yup.string().min(2, 'Too Short!').max(50, 'Too Long!').required('Required'),
@@ -40,12 +42,11 @@ const Contact: NextPage = () => {
     validationSchema: schema,
     onSubmit: async values => {
       try {
-        console.log(values);
         setIsLoading(true);
         await leadApiService.contactUs(values);
-        // alertService.notify('Thank You!', 'Thank you for contacting United Hardscapes, we will respond to your inquiry within 24 hours. Thank you for your patience.', 'Ok');
+        alertService.notify('Thank You!', 'Thank you for contacting J & D Landscaping, we will respond to your inquiry within 24 hours. Thank you for your patience.', 'Ok');
       } catch (e) {
-        // alertService.notify('Message not sent!', `We are unable to connect to customer service at this moment. Please try again later.`, 'Ok');
+        alertService.notify('Message not sent!', `We are unable to connect to customer service at this moment. Please try again later.`, 'Ok');
       } finally {
         setIsLoading(false);
       }
