@@ -41,7 +41,7 @@ export default function PatioPackageDetail() {
                           <span className="font-medium text-primary" dangerouslySetInnerHTML={{ __html: info.label }} />
                           <ul className="list-disc pl-40 mt-15 text-primary">
                             {
-                              info.options.map((option: any, optionIndex: number) => (
+                              info.options ? info.options.map((option: any, optionIndex: number) => (
                                 <li className="text-primary mb-5" key={optionIndex}>
                                   <div className="flex justify-between">
                                     <span className="text-light-400">{option.label}</span>
@@ -52,7 +52,7 @@ export default function PatioPackageDetail() {
                                     }
                                   </div>
                                 </li>
-                              ))
+                              )) : ''
                             }
                           </ul>
                         </div>
