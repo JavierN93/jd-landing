@@ -7,6 +7,6 @@ module.exports = {
     production: process.env.PRODUCTION,
   },
   images: {
-    domains: ["unitedhardscapes.com", "assets.unitedhardscapes.com", "marketplace-assets.unitedhardscapes.com", "staging-assets.unitedhardscapes.com", "staging-jdlandscaping-assets.s3.amazonaws.com"],
+    domains: ["assets.jdlandscaping.net", "staging-jdlandscaping-assets.s3.amazonaws.com"],
   }
 }

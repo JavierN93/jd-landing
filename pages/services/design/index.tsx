@@ -7,7 +7,7 @@ import { MarketplaceSection } from '../../../components/landing/cta/marketplace-
 import { RequestEstimateSection } from '../../../components/landing/cta/request-estimate-section';
 import Icon from '../../../components/ui-kit/icon';
 
-const Services: NextPage = () => {
+const DesignServices: NextPage = () => {
   return (
     <>
       <Head>
@@ -49,4 +49,4 @@ const Services: NextPage = () => {
   );
 }
 
-export default Services
+export default DesignServices

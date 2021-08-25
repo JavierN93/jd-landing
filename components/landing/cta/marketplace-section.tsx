@@ -15,7 +15,7 @@ export function MarketplaceSection() {
           <div className="text-white text-center lg:text-right w-full lg:max-w-345">
             <h2 className="text-32 md:text-44 font-medium mb-10">Marketplace</h2>
             <p className="text-18 font-medium mb-40">Get a quote for materials</p>
-            <Link href="https://marketplace.jdlandscaping.net" passHref>
+            <Link href="/services/marketplace" passHref>
               <button className="btn bg-white text-primary btn-sm-block">Learn more</button>
             </Link>
           </div>
