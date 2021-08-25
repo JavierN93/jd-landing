@@ -15,7 +15,7 @@ const IdeaBoard: NextPage = () => {
         <Jumbotron title="Idea board" image="/assets/images/idea-board/header.jpg" blur="/assets/images/idea-board/header-blur.png" />
         <section className="pt-100 pb-40">
           <div className="container mx-auto">
-            <p className="text-light-400 max-w-900 mx-auto text-center">Check out our Hardscape idea board, this section is filled with 1000’s of photos of projects we have completed and allows you to “click and save” the photos you like the best so that when you're ready to request an estimate we already have an idea of what you have in mind. If you have an account with us already please sign in, if not please create an account.</p>
+            <p className="text-light-400 max-w-900 mx-auto text-center">Check out our Hardscape idea board, this section is filled with 1000’s of photos of projects we have completed and allows you to “click and save” the photos you like the best so that when you&apos;re ready to request an estimate we already have an idea of what you have in mind. If you have an account with us already please sign in, if not please create an account.</p>
           </div>
         </section>
         <GallerySection initialIdeas={[]} />
