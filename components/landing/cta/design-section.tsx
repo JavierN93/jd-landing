@@ -12,7 +12,7 @@ export function DesignSection() {
           <div className="text-white text-center lg:text-left w-full lg:max-w-445">
             <h2 className="text-32 md:text-44 font-medium mb-10">Design Services</h2>
             <p className="text-18 font-medium mb-40">DIY Home Owners/Contractors</p>
-            <Link href="https://design.jdlandscaping.net" passHref>
+            <Link href="/services/design" passHref>
               <button className="btn bg-white text-primary btn-sm-block">Learn more</button>
             </Link>
           </div>
