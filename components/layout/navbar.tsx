@@ -61,7 +61,7 @@ export function Navbar({ isSticky }: Props) {
                 </li>
               ))}
               <li className="nav-link hidden xl:flex items-center">
-                <Link href="/request-estimate" passHref>
+                <Link href="https://estimate.jdlandscaping.net/request-estimate/step-1" passHref>
                   <button className="btn btn-primary btn-md ml-10">Request Estimate</button>
                 </Link>
               </li>

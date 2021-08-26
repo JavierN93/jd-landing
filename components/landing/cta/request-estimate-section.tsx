@@ -16,7 +16,7 @@ export function RequestEstimateSection() {
               easy and free. To get started today simply request a free estimate.</p>
           </div>
           <div className="flex-grow text-center lg:text-right">
-            <Link href="https://jdlandscaping.net/request-estimate" passHref>
+            <Link href="https://jdlandscaping.net/request-estimate/step-1" passHref>
               <button className="btn btn-primary btn-sm-block">Request Estimate</button>
             </Link>
           </div>

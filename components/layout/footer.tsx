@@ -8,22 +8,22 @@ const footer = [
     title: 'Customer',
     links: [
       { label: 'Login', href: process.env.loginPageUrl },
-      { href: 'https://jdlandscaping.net/idea-board', label: 'Idea Board' },
-      { href: 'https://jdlandscaping.net/request-estimate', label: 'Request Estimate' },
+      { href: '/idea-board', label: 'Idea Board' },
+      { href: 'https://jdlandscaping.net/request-estimate/step-1', label: 'Request Estimate' },
     ]
   },
   {
     title: 'Company',
     links: [
-      { href: 'https://jdlandscaping.net/about', label: 'About us' },
-      { href: 'https://jdlandscaping.net/why-choose-us', label: 'Why choose us' },
-      { href: 'https://jdlandscaping.net/services', label: 'Services' },
+      { href: '/about', label: 'About us' },
+      { href: '/why-choose-us', label: 'Why choose us' },
+      { href: '/services', label: 'Services' },
     ]
   },
   {
     title: 'Resources',
     links: [
-      { href: 'https://jdlandscaping.net/contact', label: 'Contact us' },
+      { href: '/contact', label: 'Contact us' },
       { label: 'Call 860 324 6218', href: 'tel:18603246218' },
     ]
   }
@@ -36,7 +36,7 @@ export function Footer() {
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-3 gap-20">
             <div className="mb-40 lg:mb-0">
-              <Link href="https://jdlandscaping.net"><a><Image src="/assets/images/logo.svg" height={62} width={171} alt="J & D Landscaping" /></a></Link>
+              <Link href="/"><a><Image src="/assets/images/logo.svg" height={62} width={171} alt="J & D Landscaping" /></a></Link>
               <div className="flex flex-col font-medium mt-30 lg:mt-65">
                 <p className="text-white">Need help?</p>
                 <a href="tel:18603246218" className="font-bold text-white">Call 860 324 6218</a>

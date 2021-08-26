@@ -96,7 +96,7 @@ const Home: NextPage = () => {
                   <p>You can also check out our Patio Packages section to view signature designs.</p>
                 </div>
                 <div className="btn-wrapper">
-                  <Link href="/request-estimate" passHref><button className="btn btn-primary">Request Estimate</button></Link>
+                  <Link href="https://estimate.jdlandscaping.net/request-estimate/step-1" passHref><button className="btn btn-primary">Request Estimate</button></Link>
                   <Link href="/patio-packages" passHref><button className="btn btn-warning">Patio Packages</button></Link>
                 </div>
               </div>
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
               <div className="order-2 lg:order-1">
                 <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">A hardscaping project is an investment, it takes time to plan, coordinate, budget, design and so much more. It’s a process that has many steps, given our experience and expertise in the Hardscape industry and our passion for efficiency we have digitized much of this process to help provide customers a better experience even before their project starts.</p>
                 <div>
-                  <Link href="/why-choose-us/project-management" passHref>
+                  <Link href="/why-choose-us" passHref>
                     <button className="btn btn-primary btn-sm-block">Learn more</button>
                   </Link>
                 </div>

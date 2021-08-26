@@ -70,7 +70,7 @@ const WhyChooseUs: NextPage = () => {
               }
             </div>
             <div className="text-center mt-50">
-              <Link href="/request-estimate" passHref>
+              <Link href="https://estimate.jdlandscaping.net/request-estimate/step-1" passHref>
                 <button className="btn btn-primary btn-sm-block">Request Estimate</button>
               </Link>
             </div>
