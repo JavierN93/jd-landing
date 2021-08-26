@@ -1,3 +1,10 @@
+import { PageName } from './page-name';
+
+export interface SessionCount {
+  date: string;
+  count: number;
+}
+
 export enum SourceFoundUs {
   Referral = 'REFERRAL',
   Google = 'GOOGLE',

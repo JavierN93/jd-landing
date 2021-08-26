@@ -21,7 +21,7 @@ export default function PatioPackageSelectSection() {
               patioPackageCards.map((card, index) => (
                 <Link href={'/patio-packages/' + card.id} passHref key={index}>
                   <div className="p-15 pb-20 text-center rounded-md shadow-lg cursor-pointer">
-                    <Image src={'/assets/images/patio-packages/' + card.image + '/card.png'} width={700} height={532} alt={card.label} placeholder="blur" blurDataURL={'/assets/images/patio-packages/' + card.image + '-blur.png'} layout="responsive" />
+                    <Image src={'/assets/images/patio-packages/' + card.image + '/card.png'} width={700} height={532} alt={card.label} placeholder="blur" blurDataURL={'/assets/images/patio-packages/' + card.image + 'card-blur.png'} layout="responsive" />
                     <p className="text-18 text-primary mb-10">{card.label}</p>
                     <button className="btn btn-primary btn-mini">See Details</button>
                   </div>

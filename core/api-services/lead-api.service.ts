@@ -1,5 +1,6 @@
 import { doPost } from './http';
 import { ContactUs, RequestDesignEstimate, ShowroomContact, ShowroomDIYContact } from '../types/lead';
+import { CustomerRegisterPayload } from '../types/auth';
 
 export const leadApiService = {
   contactUs: (body: ContactUs) => {
@@ -13,5 +14,8 @@ export const leadApiService = {
   },
   showRoomDIYContact: (body: ShowroomDIYContact) => {
     return doPost('/showroom-diy-contact', body);
+  },
+  register: (body: CustomerRegisterPayload) => {
+    return doPost('/customer/register', body);
   }
 };

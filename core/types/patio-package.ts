@@ -26,47 +26,47 @@ export enum PatioPackageAddition {
 }
 
 export const patioPackageAdditions = [
-  { image: 'assets/images/accessory-types/fire-pit.png', value: PatioPackageAddition.FirePit, label: 'Fire Pit' },
+  { image: '/assets/images/accessory-types/fire-pit.png', value: PatioPackageAddition.FirePit, label: 'Fire Pit' },
   {
-    image: 'assets/images/accessory-types/sitting-wall.png',
+    image: '/assets/images/accessory-types/sitting-wall.png',
     value: PatioPackageAddition.SittingWall,
     label: 'Sitting Wall'
   },
-  { image: 'assets/images/accessory-types/pillars.png', value: PatioPackageAddition.Pillars, label: 'Pillars' },
-  { image: 'assets/images/accessory-types/lighting.png', value: PatioPackageAddition.WallLights, label: 'Wall Lights' },
+  { image: '/assets/images/accessory-types/pillars.png', value: PatioPackageAddition.Pillars, label: 'Pillars' },
+  { image: '/assets/images/accessory-types/lighting.png', value: PatioPackageAddition.WallLights, label: 'Wall Lights' },
   {
-    image: 'assets/images/accessory-types/outdoor-speaker.png',
+    image: '/assets/images/accessory-types/outdoor-speaker.png',
     value: PatioPackageAddition.OutdoorSpeakers,
     label: 'Outdoor speakers'
   },
   {
-    image: 'assets/images/accessory-types/timber-frame.png',
+    image: '/assets/images/accessory-types/timber-frame.png',
     value: PatioPackageAddition.TimberFrameOrVinylPavilion,
     label: 'Timber frame or Vinyl pavilion'
   },
   {
-    image: 'assets/images/accessory-types/outdoor-light.png',
+    image: '/assets/images/accessory-types/outdoor-light.png',
     value: PatioPackageAddition.OutdoorLighting,
     label: 'Outdoor lighting'
   },
   {
-    image: 'assets/images/accessory-types/landscape-design.png',
+    image: '/assets/images/accessory-types/landscape-design.png',
     value: PatioPackageAddition.LandscapeDesignAndInstallation,
     label: 'Landscape design and installation'
   },
   {
-    image: 'assets/images/accessory-types/granite-step.png',
+    image: '/assets/images/accessory-types/granite-step.png',
     value: PatioPackageAddition.GraniteSteps,
     label: 'Granite Steps'
   },
   {
-    image: 'assets/images/accessory-types/side-retaining-wall.png',
+    image: '/assets/images/accessory-types/side-retaining-wall.png',
     value: PatioPackageAddition.SideRetainingWalls,
     label: 'Side Retaining Walls'
   },
-  { image: 'assets/images/accessory-types/curbing.png', value: PatioPackageAddition.Curbing, label: 'Curbing' },
+  { image: '/assets/images/accessory-types/curbing.png', value: PatioPackageAddition.Curbing, label: 'Curbing' },
   {
-    image: 'assets/images/accessory-types/pool-coping.png',
+    image: '/assets/images/accessory-types/pool-coping.png',
     value: PatioPackageAddition.PoolCoping,
     label: 'Pool Coping'
   },
