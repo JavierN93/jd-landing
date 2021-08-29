@@ -68,7 +68,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <meta name="description" content="Simply tell us what you have in mind and a project consultant will reach out to you to discuss pricing and answer any questions." />
       </Head>
       <Layout>
         <section className="relative">
