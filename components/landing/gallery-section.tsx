@@ -64,7 +64,7 @@ export function GallerySection({ initialIdeas }: Props) {
 
   useEffect(() => {
     if (ideasInitialized) {
-      loadIdeas(false);
+      loadIdeas(false).then();
     }
     setIdeasInitialized(true);
   }, [category]);
