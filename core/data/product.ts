@@ -19,12 +19,12 @@ export enum ColorClass {
 export const customerTypes = [
   {
     type: CustomerType.InstallationCustomer,
-    title: 'Installation Customer',
+    title: 'I will use J & D Landscaping for project installation',
     image: '/assets/images/showroom/customer-types/installation-customer.jpg'
   },
   {
     type: CustomerType.DIYCustomer,
-    title: 'DIY Customer',
+    title: 'I will install the hardscape project myself / I\'m a contractor',
     image: '/assets/images/showroom/customer-types/diy-customer.jpg'
   }
 ];

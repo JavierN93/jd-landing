@@ -58,7 +58,6 @@ export function ShowroomDIYContactDialog({ onClose, closeDialog }: Props) {
         alertService.notify('Thank You!', 'Thank you for requesting a quote through our marketplace. We will contact you within 24 hours to discuss your project details and provide a quote.', 'Back to Marketplace')
           .then(() => {
             closeDialog();
-            router.push('/');
           });
       } catch (e) {
       } finally {

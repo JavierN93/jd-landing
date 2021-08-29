@@ -65,7 +65,7 @@ export function ShowroomSubmitDialog({ customerType, category, colorClass, id, o
             className: 'btn-warning',
             onClick: () => {
               closeDialog();
-              router.push('https://jdlandscaping.net');
+              router.push('/');
             }
           },
           {
@@ -76,7 +76,7 @@ export function ShowroomSubmitDialog({ customerType, category, colorClass, id, o
             }
           }
         ];
-        await alertService.alert('Thank You!', 'Thank you for taking the time to save this photo! This photo will be uploaded to your account in 24 hours.', actions)
+        await alertService.alert('Thank You!', 'Thank you for taking the time to save this photo! This photo will be uploaded to your account within 24 hours.', actions)
       } catch (e) {
       } finally {
         setIsLoading(false);

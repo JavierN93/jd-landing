@@ -57,10 +57,9 @@ export function RequestDesignEstimateDialog({ customerType, onClose, closeDialog
         setIsLoading(true);
         gaService.event('Request Submitted', 'Request Design Estimate Form Submitted');
         await leadApiService.requestDesignEstimate({ ...values, customerType });
-        alertService.notify('Thank You!', 'Thank you for requesting an estimate for our design services. We will contact you within 24 hours to discuss your project details and provide a quote.', 'Back to Design Services')
+        alertService.notify('Thank You!', 'Thank you for requesting an estimate for our design services. We will contact you within 24 hours to discuss your project details and provide a quote.', 'Okay')
           .then(() => {
             closeDialog();
-            router.push('/');
           });
       } catch (e) {
       } finally {

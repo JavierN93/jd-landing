@@ -68,7 +68,7 @@ export default function ProductLists({ customerType, category, colorClass }: Pro
                         <div className="flex flex-col items-center justify-center">
                           <Icon className="mb-20 cursor-pointer" name="external_link" color="white" size={30}
                                 onClick={() => imagePreview.preview(product.image, product.id)}/>
-                          <button className="btn btn-warning btn-sm"
+                          <button className="btn btn-warning"
                                   onClick={() => showroomService.showShowroomSubmitDialog(customerType, category, colorClass, product.id)}>
                             {customerType === CustomerType.InstallationCustomer ? 'Save Photo' : 'Request a Quote'}
                           </button>

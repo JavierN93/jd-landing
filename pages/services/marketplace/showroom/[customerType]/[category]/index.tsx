@@ -45,7 +45,7 @@ export default function ShowroomProjectType() {
               }
             </div>
             <div className="flex justify-center mt-80">
-              <Link href={`/services/marketplace/showroom/${customerType}`} passHref><button className="btn btn-primary btn-md">Back</button></Link>
+              <Link href={`/services/marketplace/showroom/${customerType}`} passHref><button className="btn btn-primary">Back</button></Link>
             </div>
           </div>
         </section>

@@ -72,7 +72,7 @@ export default function Installation() {
                 <div>
                   <div className="relative max-w-500 mt-30 md:mt-0 rounded-lg shadow-lg overflow-hidden">
                     <Image src="/assets/images/installation-customers/video-frame.jpg" width={528} height={344} alt="Complete" layout="responsive" />
-                    <div className="absolute top-1/2 left-1/2 -mt-30 -ml-30 cursor-pointer" onClick={() => {videoDialogService.play('https://www.youtube.com/embed/i4VcuplgScg')}}>
+                    <div className="absolute top-1/2 left-1/2 -mt-30 -ml-30 cursor-pointer" onClick={() => {  videoDialogService.play('https://www.youtube.com/embed/i4VcuplgScg')}}>
                       <Image src="/assets/images/icons/youtube-icon.svg" width="60" height="60" quality={100} alt="Joe" />
                     </div>
                   </div>

@@ -87,7 +87,7 @@ export default function PatioPackageDialog({ onClose, closeDialog, packageType }
         const base64EncodedPayload = Base64.encode(JSON.stringify(routePayload));
         window.location.href = `https://app.jdlandscaping.net/redirect/${base64EncodedPayload}`;
       } catch (e) {
-        console.log(e);
+        alert(e.message);
       } finally {
         setIsLoading(false);
       }
