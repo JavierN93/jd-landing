@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Idea } from '../core/types/idea';
 import { doGet } from '../core/api-services/http';
+
 import { Layout } from '../components/layout/layout';
 import { Jumbotron } from '../components/landing/jumbotron';
 import { GallerySection } from '../components/landing/gallery-section';
