@@ -38,7 +38,7 @@ export default function InstallationServicePaversVsConcrete() {
     <div>
       <h3 className="text-23 text-light-500 mb-25 font-medium">Pavers vs Concrete</h3>
       <p className="text-light-400 mb-50">Debating between Pavers or concrete for your patios, walkway, pool scape or
-        driveway? Let’s take a look at the difference between Pavers and Concrete</p>
+        driveway? Let&apos;s take a look at the difference between Pavers and Concrete</p>
       {
         cards.map((card, cardIndex) => (
           <div className="flex flex-col lg:flex-row text-light-500 mb-50" key={cardIndex}>
@@ -73,7 +73,7 @@ export default function InstallationServicePaversVsConcrete() {
           ))
         }
       </div>
-      <h3 className="font-medium text-primary text-30 mt-50 mb-40 text-center">The answer is simple.<br /> Concrete Can't Complete!</h3>
+      <h3 className="font-medium text-primary text-30 mt-50 mb-40 text-center">The answer is simple.<br /> Concrete Can&apos;t Complete!</h3>
       <div className="btn-wrapper justify-center">
         <Link href="https://estimate.jdlandscaping.net/request-estimate/step-1" passHref>
           <button className="btn btn-primary">Request Estimate</button>
