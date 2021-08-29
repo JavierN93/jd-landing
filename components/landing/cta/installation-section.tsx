@@ -15,7 +15,7 @@ export function InstallationSection() {
           <div className="text-white text-center lg:text-right w-full lg:max-w-445">
             <h2 className="text-32 md:text-44 font-medium mb-10">Installation Services</h2>
             <p className="text-18 font-medium mb-40">Hardscaping Simplified</p>
-            <Link href="https://marketplace.jdlandscaping.net" passHref>
+            <Link href="/services/installation/patios" passHref>
               <button className="btn bg-white text-primary btn-sm-block">Learn more</button>
             </Link>
           </div>
