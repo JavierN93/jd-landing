@@ -11,6 +11,8 @@ import { useEffect, useState } from 'react';
 import smoothScrollTo from '../../../components/ui-kit/services/smooth-scroll-to';
 import InstallationServiceInlayAndBordersContent
   from '../../../components/landing/services/installation/installation-service-inlay-and-borders-content';
+import InstallationServicePaversVsConcrete
+  from '../../../components/landing/services/installation/installation-service-pavers-vs-concrete';
 
 interface Props {
   category: string;
@@ -46,7 +48,7 @@ export default function InstallationServiceCategoryPage({ category }: Props) {
               {
                 (() => {
                   if (category === 'pavers-vs-concrete') {
-                    return <></>;
+                    return <InstallationServicePaversVsConcrete />;
                   } else if (category === 'inlay-and-borders') {
                     return <InstallationServiceInlayAndBordersContent />
                   } else {
