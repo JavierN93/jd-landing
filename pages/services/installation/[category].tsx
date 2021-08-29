@@ -9,6 +9,8 @@ import { installationServices } from '../../../core/data/installation-services';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import smoothScrollTo from '../../../components/ui-kit/services/smooth-scroll-to';
+import InstallationServiceInlayAndBordersContent
+  from '../../../components/landing/services/installation/installation-service-inlay-and-borders-content';
 
 interface Props {
   category: string;
@@ -40,23 +42,23 @@ export default function InstallationServiceCategoryPage({ category }: Props) {
         <InstallationServiceHeaderSection />
         {
           (() => {
-            if (category === 'pavers-vs-concrete') {
-              return <></>;
-            } else if (category === 'inlay-and-borders') {
-              return <></>;
-            } else {
-              return (
-                data ? (
-                  <InstallationServiceContentSection>
-                    <GenericServiceDetail title={data.title}
-                                          description={data.description}
-                                          moreLink={data.moreLink}
-                                          name={data.name}
-                                          count={data.count} />
-                  </InstallationServiceContentSection>
-                ) : ''
-              )
-            }
+            return (data || category === 'pavers-vs-concrete' || category === 'inlay-and-borders') ? <InstallationServiceContentSection>
+              {
+                (() => {
+                  if (category === 'pavers-vs-concrete') {
+                    return <></>;
+                  } else if (category === 'inlay-and-borders') {
+                    return <InstallationServiceInlayAndBordersContent />
+                  } else {
+                    return <GenericServiceDetail title={data.title}
+                                                 description={data.description}
+                                                 moreLink={data.moreLink}
+                                                 name={data.name}
+                                                 count={data.count} />;
+                  }
+                })()
+              }
+            </InstallationServiceContentSection> : '';
           })()
         }
       </Layout>
