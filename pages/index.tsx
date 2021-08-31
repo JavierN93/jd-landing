@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { NextPage } from 'next'
+import { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination } from 'swiper/core';
 import { Layout } from '../components/layout/layout';
@@ -9,6 +10,7 @@ import { MarketplaceSection } from '../components/landing/cta/marketplace-sectio
 import { DesignSection } from '../components/landing/cta/design-section';
 import { shimmerUrl } from '../components/ui-kit/common/blur-image';
 import { RequestEstimateSection } from '../components/landing/cta/request-estimate-section';
+import useServiceSelectionService from "../core/app-services/service-selection-service";
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -64,6 +66,16 @@ const partners = [
 ];
 
 const Home: NextPage = () => {
+  const serviceSelectionService = useServiceSelectionService();
+  useEffect(() => {
+    const servicePopup  = sessionStorage.getItem('service-popup');
+    if (!servicePopup) {
+      const timer = setTimeout(() => serviceSelectionService.showServiceSelectionDialog(), 5000);
+      sessionStorage.setItem('service-popup', String(true));
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   return (
     <>
       <Head>
