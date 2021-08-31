@@ -12,35 +12,35 @@ export function ServiceSelectionDialog({ onClose, closeDialog }: Props) {
     {
       title: 'Installation Services',
       description: 'Hardscaping Simplified',
-      bgImage: '/assets/images/service-selection/installation-bg.jpg',
-      bgImageBlur: '/assets/images/service-selection/installation-bg-blur.png',
-      image: '/assets/images/service-selection/installation.jpg',
-      imageBlur: '/assets/images/service-selection/installation.png',
+      bgImage: '/assets/images/service-selection/without-marketplace/installation-bg.png',
+      bgImageBlur: '/assets/images/service-selection/without-marketplace/installation-bg-blur.png',
+      image: '/assets/images/service-selection/without-marketplace/installation.png',
+      imageBlur: '/assets/images/service-selection/without-marketplace/installation.png',
       url: 'https://jdlandscaping.net'
     },
     {
       title: 'Design Services',
       description: 'DIY Home Owners/Contractors',
-      bgImage: '/assets/images/service-selection/design-bg.jpg',
-      bgImageBlur: '/assets/images/service-selection/design-bg-blur.png',
-      image: '/assets/images/service-selection/design.jpg',
-      imageBlur: '/assets/images/service-selection/design-blur.png',
+      bgImage: '/assets/images/service-selection/without-marketplace/design-bg.png',
+      bgImageBlur: '/assets/images/service-selection/without-marketplace/design-bg-blur.png',
+      image: '/assets/images/service-selection/without-marketplace/design.png',
+      imageBlur: '/assets/images/service-selection/without-marketplace/design-blur.png',
       url: 'https://design.jdlandscaping.net'
     },
-    {
-      title: 'Marketplace',
-      description: 'Get a quote for materials',
-      bgImage: '/assets/images/service-selection/marketplace-bg.jpg',
-      bgImageBlur: '/assets/images/service-selection/marketplace-bg-blur.png',
-      image: '/assets/images/service-selection/marketplace.jpg',
-      imageBlur: '/assets/images/service-selection/marketplace-blur.png',
-      url: 'https://marketplace.jdlandscaping.net'
-    },
+    // {
+    //   title: 'Marketplace',
+    //   description: 'Get a quote for materials',
+    //   bgImage: '/assets/images/service-selection/marketplace-bg.jpg',
+    //   bgImageBlur: '/assets/images/service-selection/marketplace-bg-blur.png',
+    //   image: '/assets/images/service-selection/marketplace.jpg',
+    //   imageBlur: '/assets/images/service-selection/marketplace-blur.png',
+    //   url: 'https://marketplace.jdlandscaping.net'
+    // },
   ]
 
   return (
-    <div className="w-full sm:w-400 xl:w-1170 p-10 xl:p-20">
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-y-10 xl:gap-y-0 gap-x-25">
+    <div className="w-full sm:w-400 xl:w-990 p-10 xl:p-20">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-y-10 xl:gap-y-0 gap-x-15">
         {
           services.map((service, index) => (
             <Link href={service.url}  key={index} passHref>
@@ -53,7 +53,7 @@ export function ServiceSelectionDialog({ onClose, closeDialog }: Props) {
                   <p className="text-18 text-white font-medium">{service.description}</p>
                 </div>
                 <div className="hidden xl:block overflow-hidden rounded-t-xl">
-                  <Image src={service.image} placeholder="blur" blurDataURL={service.imageBlur} alt="Installation" width={352} height={333} layout="responsive" />
+                  <Image src={service.image} placeholder="blur" blurDataURL={service.imageBlur} alt="Installation" width={472} height={340} layout="responsive" />
                 </div>
               </div>
             </Link>
