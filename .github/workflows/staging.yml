@@ -43,13 +43,3 @@ jobs:
 
       - name: Build
         run: yarn build
-
-      - name: run deploy script
-        uses: JimCronqvist/action-ssh@master
-        env:
-          NAME: "Root"
-        with:
-          hosts: ${{secrets.USER}}@${{secrets.HOST}}
-          privateKey: ${{secrets.SSH_KEY}}
-          debug: true
-          command: /home/ubuntu/jobs/jd-staging-deploy.sh
