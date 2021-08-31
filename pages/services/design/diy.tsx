@@ -148,7 +148,7 @@ export default function Diy() {
             </div>
           </div>
         </section>
-        <MarketplaceSection />
+        {/*<MarketplaceSection />*/}
       </Layout>
     </>
   );

@@ -168,7 +168,7 @@ const Home: NextPage = () => {
           </div>
         </section>
         <DesignSection />
-        <MarketplaceSection />
+        {/*<MarketplaceSection />*/}
         <section className="bg-light-50 py-60 lg:py-100">
           <div className="container mx-auto text-center">
             <h2 className="text-25 md:text-33 lg:text-44 text-light-500 mb-40 lg:mb-80">Quality you can Trust at a price you can Afford</h2>

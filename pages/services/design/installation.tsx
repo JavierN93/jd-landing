@@ -104,7 +104,7 @@ export default function Installation() {
             </div>
           </div>
         </section>
-        <MarketplaceSection />
+        {/*<MarketplaceSection />*/}
         <RequestEstimateSection />
       </Layout>
     </>

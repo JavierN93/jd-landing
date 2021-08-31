@@ -19,7 +19,7 @@ const Services: NextPage = () => {
         <section className="py-60">
           <InstallationSection />
           <DesignSection />
-          <MarketplaceSection />
+          {/*<MarketplaceSection />*/}
         </section>
         <RequestEstimateSection />
       </Layout>
