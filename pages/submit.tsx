@@ -18,7 +18,7 @@ import Spinner from '../components/ui-kit/common/spinner';
 import { AlertAction } from '../components/ui-kit/dialog/alert-dialog';
 import { leadApiService } from '../core/api-services/lead-api.service';
 
-const SubmitProject: NextPage = () => {
+const Submit: NextPage = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const accessoryTypeOptions = [...accessoryTypes];
   const alertService = useAlert();
@@ -165,4 +165,4 @@ const SubmitProject: NextPage = () => {
   );
 };
 
-export default SubmitProject;
+export default Submit;
