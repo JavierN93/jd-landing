@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Layout } from '../../../components/layout/layout';
 import { MarketplaceSection } from '../../../components/landing/cta/marketplace-section';
@@ -144,7 +145,9 @@ export default function Diy() {
               <p className="text-24 max-w-725 mx-auto text-center">Receive all this and the guidance of a trusted industry expert for only <span className="text-primary">$399</span></p>
             </div>
             <div className="flex justify-center">
-              <button className="btn btn-warning btn-lg" onClick={() => requestDesignEstimateService.showRequestDesignEstimateDialog(CustomerType.DIYCustomer)}>Get Started</button>
+              <Link href="/submit" passHref>
+                <button className="btn btn-warning btn-lg">Get Started</button>
+              </Link>
             </div>
           </div>
         </section>

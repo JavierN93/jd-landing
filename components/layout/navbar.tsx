@@ -49,7 +49,7 @@ export function Navbar({ isSticky }: Props) {
             </div>
             <ul className="flex flex-col xl:flex-row font-medium text-white text-16 xl:text-13 pl-30 xl:pl-0">
               <li className="p-15 nav-link block lg:hidden">
-                <Link href={process.env.loginPageUrl || 'http://localhost:4200'} passHref>
+                <Link href="https://app.jdlandscaping.net/login" passHref>
                   <a className="relative xl:px-25 xl:py-10">Login</a>
                 </Link>
               </li>
