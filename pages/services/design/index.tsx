@@ -42,7 +42,7 @@ const DesignServices: NextPage = () => {
             </div>
           </div>
         </section>
-        <MarketplaceSection/>
+        {/*<MarketplaceSection/>*/}
         <RequestEstimateSection/>
       </Layout>
     </>
