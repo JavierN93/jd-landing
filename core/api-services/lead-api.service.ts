@@ -15,6 +15,9 @@ export const leadApiService = {
   showRoomDIYContact: (body: ShowroomDIYContact) => {
     return doPost('/showroom-diy-contact', body);
   },
+  submitDesignProject: (body: any) => {
+    return doPost('/submit-design-project', body);
+  },
   register: (body: CustomerRegisterPayload) => {
     return doPost('/customer/register', body);
   }

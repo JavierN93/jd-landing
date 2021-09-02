@@ -1,1 +1,1 @@
-export const placeholderImage = 'https://assets.jdlandscaping.net/images/placeholder.jpg';
+export const placeholderImage = '/assets/images/placeholder.jpg';
