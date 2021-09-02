@@ -7,7 +7,7 @@ const footer = [
   {
     title: 'Customer',
     links: [
-      { label: 'Login', href: process.env.loginPageUrl },
+      { label: 'Login', href: 'https://app.jdlandscaping.net/login' },
       { href: '/idea-board', label: 'Idea Board' },
       { href: 'https://jdlandscaping.net/request-estimate/step-1', label: 'Request Estimate' },
     ]

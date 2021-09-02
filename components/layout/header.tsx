@@ -17,7 +17,7 @@ export function Header({ isSticky }: Props) {
             <a className="text-white ml-50 cursor-pointer" href="tel:18603246218">Need help? Call 860 324 6218</a>
           </div>
           <div>
-            <Link href={ process.env.loginPageUrl || 'http://localhost:4200/login' }>
+            <Link href="https://app.jdlandscaping.net/login" passHref>
               <a className="btn btn-warning btn-mini">Login</a>
             </Link>
           </div>
