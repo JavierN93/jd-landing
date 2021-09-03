@@ -10,13 +10,13 @@ const timeline: Timeline[] = [
     events: [
       {
         label: 'Before',
-        text: 'This project in Somers, Connecticut calls for the removal of the existing blue stone and concrete patio, with the installation of a new retaining wall and raised patio that is extended over to the deck steps creating a 16 x 34 patio space with the installation of a future pavilion.',
+        text: 'This project in Somers, Connecticut calls for the removal of the existing bluestone and concrete patio, with the installation of a new retaining wall and raised patio that is extended over to the deck steps creating a 16 x 34 patio space with the installation of a future pavilion.',
         image: '/assets/images/why-choose-us/installation-process/step1.png',
         blur: '/assets/images/why-choose-us/installation-process/step1-blur.png',
       },
       {
         label: 'Step 2 - Day 1',
-        text: 'J & D Landscaping crews take great care when it comes to removing existing materials from a jobsite, whether it is removing concrete from around an existing pool, removing an old deck or simply picking up existing pavers. We take the time to ensure that we keep the jobsite neat and we prevent damage.<span class="text-primary ml-5 mt-20 d-block">Removal of the existing concrete, blue stone and other materials.</span>',
+        text: 'J & D Landscaping crews take great care when it comes to removing existing materials from a job site, whether it is removing concrete from around an existing pool, removing an old deck or simply picking up existing pavers. We take the time to ensure that we keep the job site neat and we prevent damage.<span class="text-primary ml-5 mt-20 d-block">Removal of the existing concrete, bluestone and other materials.</span>',
         image: '/assets/images/why-choose-us/installation-process/step2.png',
         blur: '/assets/images/why-choose-us/installation-process/step2-blur.png',
       },
@@ -40,7 +40,7 @@ const timeline: Timeline[] = [
       },
       {
         label: 'Step 6 - Day 1',
-        text: 'The retaining wall has been built, the caps have been installed and all proper drainage and back fill have been completed and the caps are left to dry over night <span class="text-primary">(End of day one).</span>',
+        text: 'The retaining wall has been built, the caps have been installed and all proper drainage and back fill have been completed and the caps are left to dry overnight <span class="text-primary">(End of day one).</span>',
         image: '/assets/images/why-choose-us/installation-process/step6.png',
         blur: '/assets/images/why-choose-us/installation-process/step6-blur.png',
       }
@@ -63,7 +63,7 @@ const timeline: Timeline[] = [
       },
       {
         label: 'Step 9 - Day 2',
-        text: 'When J & D Landscaping installs a project, we install it like it was our own. Laying pavers is an art, there are a slew of things we look for and pay attention to that can make the difference between an “ok job and a “wow” job. Things you as a homeowner may never think about but us professionals could point out in a minute. When you speak with a project consultant we will go over all the details that will set your project apart from your neighbors.<span class="d-block mt-20 ml-5 text-primary">Once the base has been leveled, the pavers are installed and are ready to be cut into place were needed.</span>',
+        text: 'When J & D Landscaping installs a project, we install it like it was our own. Laying pavers is an art, there is a slew of things we look for and pay attention to that can make the difference between an “ok job and a “wow” job. Things you as a homeowner may never think about but we as professionals could point out in a minute. When you speak with a project consultant we will go over all the details that will set your project apart from your neighbors.<span class="d-block mt-20 ml-5 text-primary">Once the base has been leveled, the pavers are installed and are ready to be cut into place were needed.</span>',
         image: '/assets/images/why-choose-us/installation-process/step9.png',
         blur: '/assets/images/why-choose-us/installation-process/step9-blur.png',
       },

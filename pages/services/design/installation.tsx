@@ -87,7 +87,7 @@ export default function Installation() {
               <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="flex items-center">
                   <div>
-                    <p className="text-24 text-light-500 max-w-430 mb-40">Bring your project to life by reaching out to J & D Landscaping today to setup an Estimate on your Hardscape vision. </p>
+                    <p className="text-24 text-light-500 max-w-430 mb-40">Bring your project to life by reaching out to J & D Landscaping today to set up an Estimate on your Hardscape vision. </p>
                   </div>
                 </div>
                 <div>

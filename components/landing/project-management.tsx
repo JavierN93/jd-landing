@@ -20,7 +20,7 @@ const projectManagementSteps = [
       },
       {
         label: 'Schedule a call',
-        text: 'We understand how frustrating it can be to call companies, get no response and play phone tag so we made talking to a project consultant simple, simply schedule a call for when it\'s convenient for both parties though our online scheduling tool.'
+        text: 'We understand how frustrating it can be to call companies, get no response and play phone tag so we made talking to a project consultant simple, simply schedule a call for when it\'s convenient for both parties through our online scheduling tool.'
       }
     ],
     images: ['register-1', 'register-2', 'register-3',]
@@ -35,7 +35,7 @@ const projectManagementSteps = [
       },
       {
         label: 'Set up Site Visit',
-        text: 'After you’ve reviewed your estimate and determined its within your budget, its time for a Site visit with a project consultant who will help you design your project, provide ideas, work within your budget and educate you on the entire process. Simply click “Schedule site visit” and pick a time that works best for you.'
+        text: 'After you’ve reviewed your estimate and determined it’s within your budget, it’s time for a Site visit with a project consultant who will help you design your project, provide ideas, work within your budget and educate you on the entire process. Simply click “Schedule site visit” and pick a time that works best for you.'
       },
       {
         label: 'Review Proposal and Hire J & D Landscaping',

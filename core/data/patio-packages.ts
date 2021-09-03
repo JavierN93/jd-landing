@@ -200,7 +200,7 @@ export const patioPackages = {
   DECK_EXTENDER_SERIES: {
     label: 'Deck Extender Series',
     description: `
-      <p class="text-light-400 mb-20">If you have a deck your looking to replace or need more space around an existing deck then these packages are for you.</p>
+      <p class="text-light-400 mb-20">If you have a deck you are looking to replace or need more space around an existing deck then these packages are for you.</p>
       <p class="text-light-400 mb-0">J & D Landscaping provides many solutions to maximize your backyard living whether it's adding a patio under an existing deck, coordinating a patio off a new or existing deck or  adding side retaining walls our packages can solve all your problems.</p>
     `,
     info: [
@@ -268,7 +268,7 @@ export const patioPackages = {
   NEW_POOL_PATIO_PACKAGES: {
     label: 'New Pool Patio Packages',
     description: `
-      <p class="text-light-400 mb-20">Pools are the centerpiece of many backyards and provide years of excitement for the entire family. Given the investment, pools are its important to remember to budget for their patios, don't end up short budget and stuck with concrete.</p>
+      <p class="text-light-400 mb-20">Pools are the centerpiece of many backyards and provide years of excitement for the entire family. Given the investment,  it's important to remember to budget for pool patios, don't end up short and get stuck with concrete.</p>
       <p class="text-light-400 mb-0">Pool patio packages are designed around your budget, pool  design and to maximize usable space.</p>
     `,
     info: [
