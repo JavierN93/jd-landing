@@ -24,9 +24,9 @@ export function SocialButtons() {
   return (
     <>
       {socialLinks.map((social, i) => (
-        <Link href={social.link} key={i} passHref><a className="py-10 mx-10">
-          <Image src={social.image} width={14} height={14} alt={social.name}/></a>
-        </Link>
+        <a href={social.link} target="_blank" className="py-10 mx-10" key={i}>
+          <Image src={social.image} width={14} height={14} alt={social.name}/>
+        </a>
       ))}
     </>
   );

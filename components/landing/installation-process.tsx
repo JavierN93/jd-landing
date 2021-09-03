@@ -97,8 +97,8 @@ export function InstallationProcess({ onViewClicked }: Props) {
       </div>
 
       <div className="btn-wrapper justify-center">
-        <Link href='/' passHref><button className="btn btn-primary">Request Estimate</button></Link>
-        <Link href='/patio-packages' passHref><button className="btn btn-primary">Patio Packages</button></Link>
+        <Link href="https://estimate.jdlandscaping.net/request-estimate/step-1" passHref><button className="btn btn-primary">Request Estimate</button></Link>
+        <Link href="/patio-packages" passHref><button className="btn btn-primary">Patio Packages</button></Link>
       </div>
 
       <HistoryTimeline timeline={timeline} />

@@ -68,7 +68,7 @@ export function Navbar({ isSticky }: Props) {
               {
                 isSticky &&
                   <li className="nav-link hidden xl:flex items-center">
-                    <Link href={process.env.loginPageUrl || 'http://localhost:4200'} passHref>
+                    <Link href="https://app.jdlandscaping.net/login" passHref>
                       <button className="btn btn-warning btn-md ml-20">Log in</button>
                     </Link>
                   </li>
