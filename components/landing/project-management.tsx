@@ -94,7 +94,7 @@ export default function ProjectManagement({ onViewClicked }: Props) {
             </div>
             <div className={stepIndex % 2 ? 'order-2 lg:order-1' : 'order-2 lg:order-2'}>
               <div className="max-w-310 lg:max-w-500 relative mx-auto rounded-lg shadow-md bg-white overflow-hidden mt-30">
-                <Swiper className="max-w-300 lg:max-w-500" spaceBetween={0} slidesPerView={1} autoplay={{ delay: 4000 }} pagination={{ el: `.swiper-pagination-slider`, type: 'bullets', }}>
+                <Swiper className="max-w-300 lg:max-w-500" spaceBetween={0} slidesPerView={1} autoplay={{ delay: 4000 }} pagination={{ el: `.step-${stepIndex}`, type: 'bullets', }}>
                   {
                     step.images.map((image, i) => (
                       <SwiperSlide key={i}>
@@ -110,7 +110,7 @@ export default function ProjectManagement({ onViewClicked }: Props) {
                     ))
                   }
                 </Swiper>
-                <div className="swiper-pagination-slider absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30" />
+                <div className={'swiper-pagination-slider absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30 ' + 'step-' + stepIndex} />
               </div>
             </div>
           </div>

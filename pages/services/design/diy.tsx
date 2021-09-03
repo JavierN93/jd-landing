@@ -62,13 +62,13 @@ export default function Diy() {
                   <p className="text-16 text-light-500 max-w-430">If any other photos or measurements are needed after submission, we will simply reach out to you for this additional information.</p>
                 </div>
                 <div className="pl-0 md:pl-20">
-                  <div className="max-w-500 mt-30 md:mt-0 mr-0 ml-auto">
+                  <div className="max-w-500 mt-30 md:mt-0 mr-0 ml-auto relative rounded-lg overflow-hidden">
                     <Swiper
                       spaceBetween={20}
                       slidesPerView={1}
                       autoplay={{ delay: 4000 }}
                       pagination={{
-                        el: '.swiper-pagination',
+                        el: '.step-1',
                         type: 'bullets',
                       }}
                     >
@@ -80,18 +80,19 @@ export default function Diy() {
                         </SwiperSlide>
                       ))}
                     </Swiper>
+                    <div className="swiper-pagination-slider step-1 absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30" />
                   </div>
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 my-100">
                 <div>
-                  <div className="max-w-500 mt-30 md:mt-0">
+                  <div className="max-w-500 mt-30 md:mt-0 relative rounded-lg overflow-hidden">
                     <Swiper
                       spaceBetween={20}
                       slidesPerView={1}
                       autoplay={{ delay: 4000 }}
                       pagination={{
-                        el: '.swiper-pagination',
+                        el: '.step-2',
                         type: 'bullets',
                       }}
                     >
@@ -103,6 +104,7 @@ export default function Diy() {
                         </SwiperSlide>
                       ))}
                     </Swiper>
+                    <div className="swiper-pagination-slider step-2 absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30" />
                   </div>
                 </div>
                 <div className="pl-0 md:pl-20">
@@ -119,13 +121,13 @@ export default function Diy() {
                   <p className="text-16 text-light-500 max-w-430">Finally, review your completed 3D drawings, make any minor adjustments needed and receive a complete materials list of everything you need to complete your project based on your plan.</p>
                 </div>
                 <div className="pl-0 md:pl-20">
-                  <div className="max-w-500 mt-30 md:mt-0 mr-0 ml-auto">
+                  <div className="max-w-500 mt-30 md:mt-0 mr-0 ml-auto relative rounded-lg overflow-hidden">
                     <Swiper
                       spaceBetween={20}
                       slidesPerView={1}
                       autoplay={{ delay: 4000 }}
                       pagination={{
-                        el: '.swiper-pagination',
+                        el: '.step-3',
                         type: 'bullets',
                       }}
                     >
@@ -137,6 +139,7 @@ export default function Diy() {
                         </SwiperSlide>
                       ))}
                     </Swiper>
+                    <div className="swiper-pagination-slider step-3 absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30" />
                   </div>
                 </div>
               </div>

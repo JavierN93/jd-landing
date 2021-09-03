@@ -187,7 +187,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto text-center">
             <h2 className="text-32 md:text-44 text-light-500 mb-40">They trust us</h2>
             <p className="text-light-400 font-medium mb-50 max-w-830 mx-auto">Join the over <b className="text-primary">25K followers</b> on instagram to see the most recent jobs we have completed</p>
-            <Swiper className="" spaceBetween={ 0 } slidesPerView={ 1 } autoplay={{ delay: 4000 }} pagination={{ el: `.testimonial`, type: 'bullets' }}>
+            <Swiper className="" spaceBetween={ 20 } slidesPerView={ 1 } autoplay={{ delay: 4000 }} pagination={{ el: `.testimonial`, type: 'bullets' }}>
               {
                 testimonial.map((content, index) => (
                   <SwiperSlide key={index}>

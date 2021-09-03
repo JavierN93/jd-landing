@@ -47,13 +47,13 @@ export default function Installation() {
                   </div>
                 </div>
                 <div>
-                  <div className="max-w-500 mt-30 md:mt-0 rounded-lg shadow-lg overflow-hidden">
+                  <div className="max-w-500 mt-30 md:mt-0 rounded-lg shadow-lg overflow-hidden relative">
                     <Swiper
                       spaceBetween={20}
                       slidesPerView={1}
                       autoplay={{ delay: 4000 }}
                       pagination={{
-                        el: '.swiper-pagination',
+                        el: '.before-after',
                         type: 'bullets',
                       }}
                     >
@@ -65,6 +65,7 @@ export default function Installation() {
                         </SwiperSlide>
                       ))}
                     </Swiper>
+                    <div className="swiper-pagination-slider before-after absolute w-full h-40 bottom-0 left-0 flex justify-center items-center z-10 bg-secondary bg-opacity-30" />
                   </div>
                 </div>
               </div>

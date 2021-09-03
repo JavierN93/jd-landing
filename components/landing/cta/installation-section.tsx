@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function InstallationSection() {
   return (
-    <section className="relative bg-warning bg-opacity-60">
+    <section className="relative bg-primary bg-opacity-60">
       <div className="absolute top-0 left-0 w-full h-full">
         <Image src="/assets/images/cta-installation/cta-installation-bg.png" alt="Installation Service" layout="fill" placeholder="blur" blurDataURL="/assets/images/cta-installation/cta-installation-bg-blur.png" quality={100} objectFit="cover"/>
       </div>
