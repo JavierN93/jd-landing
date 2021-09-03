@@ -76,9 +76,9 @@ export function Footer() {
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
           <div>© 2021. J & D Landscaping. All rights reserved.</div>
           <div className="mb-10 md:mb-0">
-            <Link href="https://jdlandscaping.net/privacy"><a className="text-white">Privacy Policy</a></Link>
+            <Link href="/privacy" passHref><a className="text-white">Privacy Policy</a></Link>
             <span className="mx-5">|</span>
-            <Link href="https://jdlandscaping.ent/legal-notice"><a className="text-white">Legal Notice</a></Link>
+            <Link href="/legal-notice" passHref><a className="text-white">Legal Notice</a></Link>
           </div>
         </div>
       </section>

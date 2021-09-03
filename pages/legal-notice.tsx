@@ -24,7 +24,7 @@ const LegalNotice: NextPage = () => {
 
             <p className="text-primary text-18 font-medium mb-20">Modification of Terms</p>
             <p className="mb-50 text-light-500">J & D Landscaping may, at any time and without notice, amend these
-              terms and conditions ("Terms"), or may limit or deny access to, or change the content of, the website. You
+              terms and conditions (&quot;Terms&quot;), or may limit or deny access to, or change the content of, the website. You
               should periodically visit this J & D Landscapinge to review the then current Terms to which you are bound.
               These Terms are applicable to all J & D Landscaping North American websites. When leaving this website,
               whether or not to visit another J & D Landscaping website, please read the website terms and the privacy
@@ -40,7 +40,7 @@ const LegalNotice: NextPage = () => {
             <p className="mb-50 text-light-500">All photographs, audio and video clips, picture images, graphics,
               links, website architecture, format, layout and data structures, and all other items contained on the
               website are copyrighted unless otherwise noted and may not be used in any manner, except as provided in
-              these Terms or in the website text, without J & D Landscaping's prior written permission. Images of people
+              these Terms or in the website text, without J & D Landscaping&apos;s prior written permission. Images of people
               or places and J & D Landscaping products, are either property of, or used with permission by, J & D
               Landscaping. Any unauthorized use of these materials may violate copyright, trademark and privacy laws,
               and other applicable statutes. You may browse this website and download or print a copy of material
@@ -68,12 +68,12 @@ const LegalNotice: NextPage = () => {
               Landscaping may at any time without notice amend the data displayed on the website. While J & D
               Landscaping endeavors to periodically update posted information, not all information may be current, and J
               & D Landscaping does not guarantee the accuracy or reliability of such data. Specifications on the website
-              are for comparison purposes only. Manufacturer's Suggested Retail Price (MSRP) excludes transportation
+              are for comparison purposes only. Manufacturer&apos;s Suggested Retail Price (MSRP) excludes transportation
               fees, taxes, license, title, optional or regionally required equipment. Actual dealer price may vary. J &
               D Landscaping is not responsible for any loss or damage caused by your reliance on any data contained on
               this website.</p>
-            <p className="mb-50 text-light-500">This website is provided as a convenience to you on an " as is" and "
-              as available" basis. J & D Landscaping does not warrant that your access to these website J & D
+            <p className="mb-50 text-light-500">This website is provided as a convenience to you on an &quot; as is&quot; and &quot;
+              as available&quot; basis. J & D Landscaping does not warrant that your access to these website J & D
               Landscapinges will be uninterrupted or error-free. NO WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,
               INCLUDING BUT NOT LIMITED TO WARRANTIES OF TITLE OR NON-INFRINGEMENT, OR IMPLIED WARRANTIES OF
               MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, IS MADE IN RELATION TO THE AVAILABILITY, ACCURACY,
@@ -84,14 +84,14 @@ const LegalNotice: NextPage = () => {
               responsibility and/or liability for any damages to or viruses that may infect your computer equipment or
               other property on account of or arising out of your use of or access to this website. Some jurisdictions
               do not allow exclusion of certain warranties or limitations of liability, so the above limitations or
-              exclusions may not apply to you. J & D Landscaping's liability in any case shall, however, be limited to
+              exclusions may not apply to you. J & D Landscaping&apos;s liability in any case shall, however, be limited to
               the greatest extent permitted by law.</p>
 
             <p className="text-primary text-18 font-medium mb-20">Links</p>
             <p className="mb-50 text-light-500">J & D Landscaping may include links to other sites on the Internet that
               are owned or operated by third parties, including authorized J & D Landscaping dealers. When visiting
               these third-party sites, you do so at your own risk. You should review and determine if you agree to a
-              particular site's terms and conditions of use before using such site. J & D Landscaping does not control
+              particular site&apos;s terms and conditions of use before using such site. J & D Landscaping does not control
               these sites and assumes no responsibility for their content. A link to a non-J & D Landscaping site does
               not imply that J & D Landscaping endorses the site or the products or services described on such
               sites.</p>

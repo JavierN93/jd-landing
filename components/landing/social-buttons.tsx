@@ -24,7 +24,7 @@ export function SocialButtons() {
   return (
     <>
       {socialLinks.map((social, i) => (
-        <a href={social.link} target="_blank" className="py-10 mx-10" key={i}>
+        <a href={social.link} target="_blank" rel="noreferrer" className="py-10 mx-10" key={i}>
           <Image src={social.image} width={14} height={14} alt={social.name}/>
         </a>
       ))}

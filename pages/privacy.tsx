@@ -19,9 +19,9 @@ const Privacy: NextPage = () => {
               <h2 className="text-32 md:text-44 text-light-500 text-center mb-40 lg:mb-60">Privacy Policy</h2>
             </div>
             <p className="mb-50 text-light-500">J & D Landscaping recognizes the importance of protecting the personal
-              privacy of its website visitors <a className="underline">and as such will not send unsolicited "junk" or
-                "spam" email to you as a result of visiting any J & D Landscaping website unless you specifically
-                request that such data in email form be sent</a> . The following Privacy Policy ("Policy") describes the
+              privacy of its website visitors <a className="underline">and as such will not send unsolicited &quot;junk&quot; or
+                &quot;spam&quot; email to you as a result of visiting any J & D Landscaping website unless you specifically
+                request that such data in email form be sent</a> . The following Privacy Policy (&quot;Policy&quot;) describes the
               types of information J & D Landscaping may collect and permissible use that information. The Policy
               applies only to J & D Landscaping North America websites. When leaving this website, please read the
               privacy policy applicable to <a className="underline">that</a> website, if any, to ensure you understand
@@ -40,11 +40,11 @@ const Privacy: NextPage = () => {
             <p className="mb-50 text-light-500">When connecting to our website, J & D Landscaping may automatically
               collect technical non-personal information. Examples include the type of Internet browser used, your
               computer operating system and the IP address of the website from which you linked to our website. When
-              viewing our website, information in the form of a "cookie" or similar file may also be stored on your
+              viewing our website, information in the form of a &quot;cookie&quot; or similar file may also be stored on your
               computer. This information helps J & D Landscaping to tailor its website in a manner to better match your
               interests and preferences. If you do not wish to receive cookies or want to be notified when they are
-              placed on your computer, many Internet browser's settings allow you to erase existing "cookies" or block
-              or warn before a cookie is stored on your computer. Consult your specific browser's instructions to learn
+              placed on your computer, many Internet browser&apos;s settings allow you to erase existing &quot;cookies&quot; or block
+              or warn before a cookie is stored on your computer. Consult your specific browser&apos;s instructions to learn
               more about these features.</p>
 
             <p className="text-primary text-18 font-medium mb-20">Personal Information</p>
