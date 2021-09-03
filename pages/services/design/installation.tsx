@@ -22,7 +22,7 @@ export default function Installation() {
   return (
     <>
       <Head>
-        <title>Design Services for Homeowners | J & D Landscaping</title>
+        <title>3D Rendering Services for Homeowners | J & D Landscaping</title>
         <meta name="description" content="We offer a free 3D Rendering of your project when you hire J & D Landscaping for hardscape installation."/>
       </Head>
       <Layout>
@@ -32,7 +32,7 @@ export default function Installation() {
           </div>
           <div className="absolute bottom-70 w-full">
             <div className="container mx-auto relative z-10">
-              <h1 className="text-30 lg:text-44 text-white text-center lg:text-left max-w-620">I&apos;m hiring J & D Landscaping for installation</h1>
+              <h1 className="text-30 lg:text-44 text-white text-center lg:text-left max-w-620">3D Rendering Services</h1>
             </div>
           </div>
         </section>

@@ -33,7 +33,6 @@ const Submit: NextPage = () => {
       name: Yup.string().required('Required'),
       address: Yup.string().required('Required'),
       description: Yup.string().required('Required'),
-      types: Yup.array().min(1, 'At 1 type should be selected'),
       photos: Yup.array().min(1, 'At 1 photo should be provided'),
       sketches: Yup.array().min(1, 'At 1 sketch should be provided'),
     })
@@ -50,12 +49,10 @@ const Submit: NextPage = () => {
         name: '',
         address: '',
         description: '',
-        types: [],
         comment: '',
         photos: [],
         sketches: [],
         material: '',
-        timeline: '',
         additional: '',
         question: ''
       }
@@ -116,26 +113,26 @@ const Submit: NextPage = () => {
               <Input name="project.name" placeholder="Eg: The sullivan's Patio or Driftwood Lane Project" label="Project Name" value={form.values.project.name} onChange={form.handleChange} />
               {form.errors.project?.description && form.touched.project?.description && <p className="text-danger text-10 font-medium mb-5">{form.errors.project?.description}</p>}
               <TextArea name="project.description" label="Project Description (Please include measurement)" placeholder="Eg: 25x25 Sq. Ft Patio or 500 Sq Ft Patio" value={form.values.project.description} onChange={form.handleChange} />
-              <p className="text-center text-light-500 mt-40 mb-20">Project Type</p>
-              {form.errors.project?.types && form.touched.project?.types && <p className="text-danger text-10 font-medium mb-5">{form.errors.project?.types}</p>}
-              <ImageCardSelector name="project.types" options={accessoryTypeOptions} value={form.values.project.types} onChange={form.handleChange} />
+              {/*<p className="text-center text-light-500 mt-40 mb-20">Project Type</p>*/}
+              {/*{form.errors.project?.types && form.touched.project?.types && <p className="text-danger text-10 font-medium mb-5">{form.errors.project?.types}</p>}*/}
+              {/*<ImageCardSelector name="project.types" options={accessoryTypeOptions} value={form.values.project.types} onChange={form.handleChange} />*/}
               <TextArea name="project.comment" label="Other" placeholder="Eg: Landscaping, Hardscape Bar, Grill, Fire Pit..." value={form.values.project.comment} onChange={form.handleChange} />
               <div className="mt-50 text-center">
-                <p className="text-primary text-20 mb-15">Send us a photo/photos of the project area</p>
+                <p className="text-primary text-20 mb-15">Provide us a photo/photos of the project area</p>
                 <p className="text-light-500 mb-25">Please send as many photos as possible</p>
                 {form.errors.project?.photos && form.touched.project?.photos && <p className="text-danger text-10 font-medium mb-5">{form.errors.project?.photos}</p>}
                 <PhotoUploader name="project.photos" value={form.values.project.photos} onChange={form.handleChange} />
               </div>
 
               <div className="mt-50 text-center">
-                <p className="text-primary text-20 mb-15">Send us a basic sketch of the project area</p>
+                <p className="text-primary text-20 mb-15">Provide us a basic sketch of the project area</p>
                 <p className="text-light-500 mb-25">Please send us an example and basic sketch of the project area</p>
                 {form.errors.project?.sketches && form.touched.project?.sketches && <p className="text-danger text-10 font-medium mb-5">{form.errors.project?.sketches}</p>}
                 <PhotoUploader name="project.sketches" value={form.values.project.sketches} onChange={form.handleChange} />
               </div>
 
               <div className="mt-50 text-center">
-                <p className="text-primary text-20 mb-15">Send us your company logo</p>
+                <p className="text-primary text-20 mb-15">Provide us your company logo</p>
                 <p className="text-light-500 mb-25 max-w-520">Please send us an good quality .png logo to add it on the 3D renderings and video</p>
                 <PhotoUploader name="company.logo" value={form.values.company.logo} onChange={form.handleChange} />
               </div>
@@ -144,7 +141,6 @@ const Submit: NextPage = () => {
                 <p className="text-primary text-20 mb-15 text-center">Tell us about the materials you would like to use</p>
                 <p className="text-light-500 mb-25 max-w-520 mx-auto text-center">Please send us the type of materials you would like to use for this project</p>
                 <TextArea name="project.material" label="Materials" placeholder="Eg: Techo-Bloc Blu 60 in Champlain Grey" value={form.values.project.material} onChange={form.handleChange} />
-                <Input name="project.timeline" placeholder="Eg: 10/7/2021" label="Project Timeline" value={form.values.project.timeline} onChange={form.handleChange} />
                 <TextArea name="project.comment" label="Comments" placeholder="Please provide us any additional information" value={form.values.project.comment} onChange={form.handleChange} />
                 <TextArea name="project.question" label="Questions" placeholder="Please feel free to ask us any questions about your project" value={form.values.project.question} onChange={form.handleChange} />
               </div>

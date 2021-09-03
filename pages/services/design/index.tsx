@@ -11,18 +11,16 @@ const DesignServices: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Design Services | J & D Landscaping</title>
+        <title>3D Rendering Services | J & D Landscaping</title>
         <meta name="description"
               content="Looking for the best way to visualize your project? Our 3D Designs and Video Walkthroughs will bring you peace of mind when completing a Hardscape project."/>
       </Head>
       <Layout>
-        <Jumbotron title="Design Services" image="/assets/images/services/design/header.jpg"
+        <Jumbotron title="3D Rendering Services" image="/assets/images/services/design/header.jpg"
                    blur="/assets/images/services/design/header-blur.png"/>
         <section className="bg-light-50 py-100">
           <div className="container mx-auto">
-            <p className="text-16 text-light-400 max-w-830 mb-80 mx-auto text-center">Looking for the best way to
-              visualize your project? Our 3D Designs and Video Walkthroughs will bring you the peace of mind that you
-              deserve when completing a Hardscape project.</p>
+            <p className="text-16 text-light-400 max-w-830 mb-80 mx-auto text-center">If you&apos;re looking for the best way to articulate your idea or bring to life a sketched design, our 3D Rendering services for both homeowners and contractors offer an efficient and affordable solution to turn your idea into a visual reality.</p>
 
             <div
               className="grid grid-cols-1 xl:grid-cols-2 gap-30 text-white text-center text-20 lg:text-28 xxl:text-28">

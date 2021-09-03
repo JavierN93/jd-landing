@@ -10,7 +10,7 @@ export function DesignSection() {
       <div className="container mx-auto relative z-10 py-40 lg:py-0">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between">
           <div className="text-white text-center lg:text-left w-full lg:max-w-445">
-            <h2 className="text-32 md:text-44 font-medium mb-10">Design Services</h2>
+            <h2 className="text-32 md:text-44 font-medium mb-10">3D Rendering Services</h2>
             <p className="text-18 font-medium mb-40">DIY Home Owners/Contractors</p>
             <Link href="/services/design" passHref>
               <button className="btn bg-white text-primary btn-sm-block">Learn more</button>

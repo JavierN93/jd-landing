@@ -21,7 +21,7 @@ export function ServiceSelectionDialog({ onClose, closeDialog }: Props) {
       url: '/services/installation/patios'
     },
     {
-      title: 'Design Services',
+      title: '3D Rendering Services',
       description: 'DIY Home Owners/Contractors',
       bgImage: '/assets/images/service-selection/without-marketplace/design-bg.png',
       bgImageBlur: '/assets/images/service-selection/without-marketplace/design-bg-blur.png',
