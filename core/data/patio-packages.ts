@@ -108,7 +108,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/economy/3.png',
       'assets/images/landing-page/patio-packages/economy/4.png',
       'assets/images/landing-page/patio-packages/economy/5.png',
-    ]
+    ],
+    seo: {
+      title: 'Economy Series Hardscape Packages by J & D Landscaping',
+      description: 'Are you looking for a simple & cost-effective patio that has style and is installed with the durability to last a lifetime? Our economy line offers just that!'
+    }
   },
   ENTERTAINMENT_SERIES: {
     label: 'Entertainment Series',
@@ -145,7 +149,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/entertainment/5.png',
       'assets/images/landing-page/patio-packages/entertainment/6.png',
       'assets/images/landing-page/patio-packages/entertainment/7.png',
-    ]
+    ],
+    seo: {
+      title: 'Entertainment Series Hardscape Packages | J & D Landscaping',
+      description: `Our Entertainment Series Packages include a fire pit, sitting wall and a custom 10' design, free inlay upgrades and pre-wire for wall lights. Contact us now!`
+    }
   },
   EXECUTIVE_SERIES: {
     label: 'Executive Series',
@@ -183,7 +191,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/executive/3.png',
       'assets/images/landing-page/patio-packages/executive/4.png',
       'assets/images/landing-page/patio-packages/executive/5.png',
-    ]
+    ],
+    seo: {
+      title: 'Executive Series Hardscape Packages by J & D Landscaping',
+      description: `Our Executive Series Hardscape Packages include a hardscape couch, hardscape bar, and outdoor grill island. `
+    }
   },
   DECK_EXTENDER_SERIES: {
     label: 'Deck Extender Series',
@@ -213,7 +225,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/deck-extender/7.png',
       'assets/images/landing-page/patio-packages/deck-extender/8.png',
       'assets/images/landing-page/patio-packages/deck-extender/9.png',
-    ]
+    ],
+    seo: {
+      title: 'Deck Extender Series Hardscape Packages by J & D Landscaping',
+      description: `If you have a deck you are looking to replace or need more space around an existing deck then these packages are for you. Schedule a free consultation now!`
+    }
   },
   WALKWAY_PACKAGES: {
     label: 'Walkways Packages',
@@ -243,7 +259,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/walkway/7.png',
       'assets/images/landing-page/patio-packages/walkway/8.png',
       'assets/images/landing-page/patio-packages/walkway/9.png',
-    ]
+    ],
+    seo: {
+      title: 'Walkway Packages by J & D Landscaping',
+      description: `Our walkway packages include a minimum of 8 inches of base on each side of the walkway for support, your choice of color, paver and border. Contact us now!`
+    }
   },
   NEW_POOL_PATIO_PACKAGES: {
     label: 'New Pool Patio Packages',
@@ -269,7 +289,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/pool-patio/3.png',
       'assets/images/landing-page/patio-packages/pool-patio/4.png',
       'assets/images/landing-page/patio-packages/pool-patio/5.png',
-    ]
+    ],
+    seo: {
+      title: 'New Pool Patio Packages by J & D Landscaping',
+      description: `All our Pool Patio Packages are designed around your budget, pool design and to maximize usable space. Schedule a free consultation now to learn more!`
+    }
   },
   HARDSCAPE_BAR: {
     label: 'Hardscapes Bar',
@@ -296,7 +320,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/hardscape-bar/1.png',
       'assets/images/landing-page/patio-packages/hardscape-bar/2.png',
       'assets/images/landing-page/patio-packages/hardscape-bar/3.png',
-    ]
+    ],
+    seo: {
+      title: 'Hardscape Bar Packages by J & D Landscaping',
+      description: `Schedule a free consultation now to learn more about the Hardscape Bar Packages by J & D Landscaping!`
+    }
   },
   HARDSCAPE_COUCH: {
     label: 'Hardscapes Couch',
@@ -326,7 +354,11 @@ export const patioPackages = {
       'assets/images/landing-page/patio-packages/hardscape-couch/3.png',
       'assets/images/landing-page/patio-packages/hardscape-couch/4.png',
       'assets/images/landing-page/patio-packages/hardscape-couch/5.png',
-    ]
+    ],
+    seo: {
+      title: 'Hardscape Couch Packages by J & D Landscaping',
+      description: `Schedule a free consultation now to learn more about the Hardscape Couch Packages by J & D Landscaping!`
+    }
   },
   HARDSCAPE_GRILL: {
     label: 'Hardscape Grill Island',
@@ -352,7 +384,11 @@ export const patioPackages = {
     imageCount: 1,
     images: [
       'assets/images/landing-page/patio-packages/hardscape-grill/1.png',
-    ]
+    ],
+    seo: {
+      title: 'Hardscape Grill Island Packages by J & D Landscaping',
+      description: `If you are looking for an affordable outdoor grill island, our basic package has everything you are looking for. Schedule a free consultation now to learn more!`
+    }
   },
 };
 

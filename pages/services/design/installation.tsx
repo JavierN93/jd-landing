@@ -22,8 +22,8 @@ export default function Installation() {
   return (
     <>
       <Head>
-        <title>J & D Landscaping Design Services - Installation</title>
-        <meta name="description" content="I'm hiring J & D landscaping for installation"/>
+        <title>Design Services for Homeowners | J & D Landscaping</title>
+        <meta name="description" content="We offer a free 3D Rendering of your project when you hire J & D Landscaping for hardscape installation."/>
       </Head>
       <Layout>
         <section className="relative h-380">

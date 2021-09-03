@@ -1,14 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import { Layout } from '../../components/layout/layout';
 import PatioPackageSelectSection from '../../components/landing/patio-packages/patio-package-select-section';
-import { useEffect, useState } from 'react';
 import smoothScrollTo from '../../components/ui-kit/services/smooth-scroll-to';
-import { useRouter } from 'next/router';
-import { patioPackageOptions, patioPackages } from '../../core/data/patio-packages';
+import { patioPackages } from '../../core/data/patio-packages';
 import usePatioPackageDialogService from '../../core/app-services/patio-package-dialog-service';
 import { PatioPackage } from '../../core/types/patio-package';
-import { Input } from '../../components/ui-kit/input/input';
 
 export default function PatioPackageDetail() {
   const router = useRouter();
@@ -25,11 +24,11 @@ export default function PatioPackageDetail() {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>{data ? data.seo.title : 'Signature Hardscape Packages by J & D Landscaping'}</title>
+        <meta name="description" content={data ? data.seo.description : `J & D Landscaping's Hardscape Packages can be customized to fit your backyard and bring your Hardscape dream to reality.`}/>
       </Head>
       <Layout>
-        <PatioPackageSelectSection />
+        <PatioPackageSelectSection/>
         <div id="details">
           {
             data ? (
@@ -38,12 +37,13 @@ export default function PatioPackageDetail() {
                   <h3 className="text-30 text-light-500 font-bold mb-50 text-center lg:text-left">{data.label}</h3>
                   <div className="grid grid-cols-1 lg:grid-cols-5 2xl:grid-cols-10 gap-60">
                     <div className="col-span-1 lg:col-span-2 2xl:col-span-3">
-                      <div className="mb-20" dangerouslySetInnerHTML={{ __html: data.description }} />
+                      <div className="mb-20" dangerouslySetInnerHTML={{ __html: data.description }}/>
                       <p className="font-bold text-light-500 mb-50">Installed Prices</p>
                       {
                         data.info.map((info: any, infoIndex: number) => (
                           <div className="mb-50" key={infoIndex}>
-                            <span className="font-medium text-primary" dangerouslySetInnerHTML={{ __html: info.label }} />
+                            <span className="font-medium text-primary"
+                                  dangerouslySetInnerHTML={{ __html: info.label }}/>
                             <ul className="list-disc pl-40 mt-15 text-primary">
                               {
                                 info.options ? info.options.map((option: any, optionIndex: number) => (
@@ -63,9 +63,13 @@ export default function PatioPackageDetail() {
                           </div>
                         ))
                       }
-                      <p className="text-light-400 mb-30">Speak to a project consultant to learn more and to discuss the details of your project.</p>
+                      <p className="text-light-400 mb-30">Speak to a project consultant to learn more and to discuss the
+                        details of your project.</p>
                       <div className="flex flex-col">
-                        <button className="btn btn-primary mb-10" onClick={() => patioPackageDialog.showPatioPackageDialog(id as PatioPackage)}>Schedule Consultation</button>
+                        <button className="btn btn-primary mb-10"
+                                onClick={() => patioPackageDialog.showPatioPackageDialog(id as PatioPackage)}>Schedule
+                          Consultation
+                        </button>
                         <span className="text-warning text-10">* Some restrictions apply</span>
                       </div>
                     </div>
@@ -78,20 +82,21 @@ export default function PatioPackageDetail() {
                                  placeholder="blur"
                                  objectFit="cover"
                                  alt={data.name}
-                                 blurDataURL={'/assets/images/patio-packages/' + data.name + '/' + (selectedImageIndex + 1) + '-blur.png'} />
+                                 blurDataURL={'/assets/images/patio-packages/' + data.name + '/' + (selectedImageIndex + 1) + '-blur.png'}/>
                         </div>
                       </div>
                       <div className="grid grid-cols-2 sm:grid-cols-4 2xl:grid-cols-5 gap-20">
                         {
                           Array.from(Array(data.imageCount)).map((obj, imageIndex) => (
-                            <div className="image-frame-grid-item rounded shadow-md cursor-pointer" key={imageIndex} onClick={() => setSelectedImageIndex(imageIndex)}>
+                            <div className="image-frame-grid-item rounded shadow-md cursor-pointer" key={imageIndex}
+                                 onClick={() => setSelectedImageIndex(imageIndex)}>
                               <Image className="absolute inset-0"
                                      src={'/assets/images/patio-packages/' + data.name + '/' + (imageIndex + 1) + '.png'}
                                      layout="fill"
                                      placeholder="blur"
                                      objectFit="cover"
                                      alt={data.name}
-                                     blurDataURL={'/assets/images/patio-packages/' + data.name + '/' + (imageIndex + 1) + '-blur.png'} />
+                                     blurDataURL={'/assets/images/patio-packages/' + data.name + '/' + (imageIndex + 1) + '-blur.png'}/>
                             </div>
                           ))
                         }

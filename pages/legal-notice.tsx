@@ -7,8 +7,8 @@ const LegalNotice: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Legal Notice - J & D Landscaping</title>
-        <meta name="description" content="Choose from a variety of patio, walkway, driveway, retaining wall, and stair kits for any budget and taste to create the perfect outdoor living space." />
+        <title>Legal Notice | J & D Landscaping</title>
+        <meta name="description" content="J & D Landscaping Terms and Conditions of Use" />
       </Head>
       <Layout>
         <Jumbotron title="" image="/assets/images/privacy/header.jpg" blur="/assets/images/privacy/header-blur.png" />

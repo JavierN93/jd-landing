@@ -43,8 +43,8 @@ const WhyChooseUs: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>Why Choose Us | J & D Landscaping</title>
+        <meta name="description" content="Find out what makes J & D Landscaping different and how our process works." />
       </Head>
       <Layout>
         <Jumbotron title="Why choose us" image="/assets/images/why-choose-us/header.jpg" blur="/assets/images/why-choose-us/header-blur.png" />

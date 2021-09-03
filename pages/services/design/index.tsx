@@ -11,9 +11,9 @@ const DesignServices: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping Design Services</title>
+        <title>Design Services | J & D Landscaping</title>
         <meta name="description"
-              content="Our 3D Designs and Video walk through will bring you the peace of mind that you deserve when completing a Hardscape project."/>
+              content="Looking for the best way to visualize your project? Our 3D Designs and Video Walkthroughs will bring you peace of mind when completing a Hardscape project."/>
       </Head>
       <Layout>
         <Jumbotron title="Design Services" image="/assets/images/services/design/header.jpg"

@@ -42,8 +42,8 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>About Us | J & D Landscaping</title>
+        <meta name="description" content="Learn more about the history of J & D Landscaping and how it all started." />
       </Head>
       <Layout>
         <Jumbotron title="About us" image="/assets/images/about/header.jpg" blur="/assets/images/about/header-blur.png" />

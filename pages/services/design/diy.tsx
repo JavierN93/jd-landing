@@ -33,8 +33,8 @@ export default function Diy() {
   return (
     <>
       <Head>
-        <title>J & D Landscaping Design Services - Installation</title>
-        <meta name="description" content="I'll install the project myself / I'm a contractor"/>
+        <title>Design Services for Contractors & DIYers | J & D Landscaping</title>
+        <meta name="description" content="Work with a Hardscape Architect to plan your project and receive a detailed 2D Digital Blueprint, 3D Renderings, and a complete Materials List for your project."/>
       </Head>
       <Layout>
         <section className="relative h-380">

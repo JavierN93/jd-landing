@@ -37,8 +37,8 @@ export default function InstallationServiceCategoryPage({ category }: Props) {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>{data ? data.seo.title : 'Hardscape Installation Services | J & D Landscaping'}</title>
+        <meta name="description" content={data ? data.seo.description : 'J & D Landscaping provides Hardscape Installation Services in Connecticut. Quality. Efficient. Affordable.'} />
       </Head>
       <Layout>
         <InstallationServiceHeaderSection />

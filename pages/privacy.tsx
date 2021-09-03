@@ -7,8 +7,8 @@ const Privacy: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Privacy Policy - J & D Landscaping</title>
-        <meta name="description" content="Choose from a variety of patio, walkway, driveway, retaining wall, and stair kits for any budget and taste to create the perfect outdoor living space." />
+        <title>Privacy Policy | J & D Landscaping</title>
+        <meta name="description" content="J & D Landscaping Privacy and Policy" />
       </Head>
       <Layout>
         <Jumbotron title="" image="/assets/images/privacy/header.jpg" blur="/assets/images/privacy/header-blur.png" />

@@ -94,7 +94,7 @@ const Submit: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
+        <title>3D Design Service Customer Questionnaire | J & D Landscaping</title>
         <meta name="description" content="Simply tell us what you have in mind and a project consultant will reach out to you to discuss pricing and answer any questions." />
       </Head>
       <Layout>

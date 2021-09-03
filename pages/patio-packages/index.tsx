@@ -7,8 +7,8 @@ const PatioPackages: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>Signature Hardscape Packages by J & D Landscaping</title>
+        <meta name="description" content="J & D Landscaping's Hardscape Packages can be customized to fit your backyard and bring your Hardscape dream to reality." />
       </Head>
       <Layout>
         <PatioPackageSelectSection />

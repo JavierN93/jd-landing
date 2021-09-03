@@ -56,8 +56,8 @@ const Contact: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>Contact Us | J & D Landscaping</title>
+        <meta name="description" content="Have a question about our services? We'll get you the help you need. Contact us now!" />
       </Head>
       <Layout>
         <Jumbotron title="" image="/assets/images/contact/header.jpg" blur="/assets/images/contact/header-blur.png" />

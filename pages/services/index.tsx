@@ -11,8 +11,8 @@ const Services: NextPage = () => {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping" />
+        <title>Our Services | J & D Landscaping</title>
+        <meta name="description" content="Have a question about our services? We'll get you the help you need. Contact us now!" />
       </Head>
       <Layout>
         <Jumbotron title="Services" image="/assets/images/services/header.jpg" blur="/assets/images/services/header-blur.png" />

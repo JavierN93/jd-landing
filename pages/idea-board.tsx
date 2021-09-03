@@ -14,8 +14,8 @@ export default function IdeaBoard({ ideas }: Props) {
   return (
     <>
       <Head>
-        <title>J & D Landscaping</title>
-        <meta name="description" content="J & D Landscaping"/>
+        <title>Idea Board | J & D Landscaping</title>
+        <meta name="description" content="Check out our Hardscape Idea Board that is filled with 1000’s of photos of projects we have completed. "/>
       </Head>
       <Layout>
         <Jumbotron title="Idea board" image="/assets/images/idea-board/header.jpg"

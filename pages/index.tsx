@@ -80,7 +80,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>J & D Landscaping</title>
-        <meta name="description" content="Simply tell us what you have in mind and a project consultant will reach out to you to discuss pricing and answer any questions." />
+        <meta name="description" content="J & D Landscaping provides Hardscape Installation Services in Connecticut and Online Design Services nationwide. 17 years in business. 1,000+ projects completed." />
       </Head>
       <Layout>
         <section className="relative">
