@@ -15,6 +15,7 @@ export function Jumbotron({ title, image, blur, height }: Props) {
       <div className="container mx-auto text-white relative z-10">
         <h1 className="text-44 mt-100">{ title }</h1>
       </div>
+      <div className="absolute inset-0 bg-black bg-opacity-30" />
     </section>
   );
 }
