@@ -69,7 +69,7 @@ export default function Diy() {
             <div className="text-center md:text-left max-w-1200 mx-auto">
               {
                 steps.map((step, stepIndex) => (
-                  <div className="grid grid-cols-1 md:grid-cols-2 my-100">
+                  <div className="grid grid-cols-1 md:grid-cols-2 my-100" key={stepIndex}>
                     <div className={'flex flex-col justify-center ' + (stepIndex % 2 ? 'order-1 lg:order-2' : 'order-1 lg:order-1')}>
                       <p className="text-44 text-primary font-medium mb-10">{step.title}</p>
                       <p className="text-32 text-light-500 max-w-430 mb-20">{step.description}</p>
@@ -91,7 +91,7 @@ export default function Diy() {
             <div className="text-center md:text-left max-w-1200 mx-auto">
               {
                 receives.map((receive, receiveIndex) => (
-                  <div className="grid grid-cols-1 md:grid-cols-2 my-100">
+                  <div className="grid grid-cols-1 md:grid-cols-2 my-100" key={receiveIndex}>
                     <div className={'flex flex-col justify-center ' + (receiveIndex % 2 ? 'order-1 lg:order-2' : 'order-1 lg:order-1')}>
                       <p className="text-44 text-primary font-medium mb-10">{receive.title}</p>
                       <p className="text-32 text-light-500 max-w-430 mb-20">{receive.description}</p>
