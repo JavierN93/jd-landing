@@ -8,25 +8,25 @@ import {
 export const patioPackageOptions = {
   ECONOMY_SERIES: {
     options: [
-      new PatioPackageOption(`15' x 20'`, 7500, '15_20'),
-      new PatioPackageOption(`20' x 20'`, 9750, '20_20'),
-      new PatioPackageOption(`20' x 25'`, 12250, '20_25'),
+      new PatioPackageOption(`15' x 20'`, 9000, '15_20'),
+      new PatioPackageOption(`20' x 20'`, 12000, '20_20'),
+      new PatioPackageOption(`20' x 25'`, 15000, '20_25'),
     ],
     additional: getPatioPackageAdditions([PatioPackageAddition.FirePit, PatioPackageAddition.SittingWall])
   },
   ENTERTAINMENT_SERIES: {
     options: [
-      new PatioPackageOption('400 sq ft', 12600, '400_SQ_FT'),
-      new PatioPackageOption('600 sq ft', 17500, '600_SQ_FT'),
-      new PatioPackageOption('800 sq ft', 22450, '800_SQ_FT'),
+      new PatioPackageOption('400 sq ft', 15350, '400_SQ_FT'),
+      new PatioPackageOption('600 sq ft', 21350, '600_SQ_FT'),
+      new PatioPackageOption('800 sq ft', 27350, '800_SQ_FT'),
     ],
     additional: getPatioPackageAdditions([PatioPackageAddition.Pillars, PatioPackageAddition.WallLights])
   },
   EXECUTIVE_SERIES: {
     options: [
-      new PatioPackageOption('600 sq ft', 36450, '600_SQ_FT'),
-      new PatioPackageOption('900 sq ft', 43959, '900_SQ_FT'),
-      new PatioPackageOption('1100 sq ft', 48950, '1100_SQ_FT'),
+      new PatioPackageOption('600 sq ft', 42450, '600_SQ_FT'),
+      new PatioPackageOption('900 sq ft', 51459, '900_SQ_FT'),
+      new PatioPackageOption('1100 sq ft', 57450, '1100_SQ_FT'),
     ],
     additional: getPatioPackageAdditions([
       PatioPackageAddition.OutdoorSpeakers,
@@ -37,9 +37,9 @@ export const patioPackageOptions = {
   },
   DECK_EXTENDER_SERIES: {
     options: [
-      new PatioPackageOption('Under deck 16 x 20 patio', 8640, 'UNDER_DECK_16_20_PATIO'),
-      new PatioPackageOption('Under Deck + Fire Pit area', 14040, 'UNDER_DECK_PLUS_FIRE_PIT'),
-      new PatioPackageOption('20 x 28 Deck Replacement', 15120, '20_28_DECK_REPLACEMENT'),
+      new PatioPackageOption('Under deck 16 x 20 patio', 9600, 'UNDER_DECK_16_20_PATIO'),
+      new PatioPackageOption('Under Deck + Fire Pit area', 15830, 'UNDER_DECK_PLUS_FIRE_PIT'),
+      new PatioPackageOption('20 x 28 Deck Replacement', 16800, '20_28_DECK_REPLACEMENT'),
     ],
     additional: getPatioPackageAdditions([
       PatioPackageAddition.GraniteSteps,
@@ -50,10 +50,10 @@ export const patioPackageOptions = {
   },
   WALKWAY_PACKAGES: {
     options: [
-      new PatioPackageOption('Up to 25 foot long', 3400, 'UP_TO_25'),
-      new PatioPackageOption('Up to 35 foot long', 4480, 'UP_TO_35'),
-      new PatioPackageOption('Up to 45 foot long', 5580, 'UP_TO_45'),
-      new PatioPackageOption('Up to 55 foot long', 6820, 'UP_TO_55'),
+      new PatioPackageOption('Up to 25 foot long', 3800, 'UP_TO_25'),
+      new PatioPackageOption('Up to 35 foot long', 4760, 'UP_TO_35'),
+      new PatioPackageOption('Up to 45 foot long', 6120, 'UP_TO_45'),
+      new PatioPackageOption('Up to 55 foot long', 7480, 'UP_TO_55'),
     ],
     additional: getPatioPackageAdditions([
       PatioPackageAddition.GraniteSteps,
@@ -62,9 +62,9 @@ export const patioPackageOptions = {
   },
   NEW_POOL_PATIO_PACKAGES: {
     options: [
-      new PatioPackageOption('750 sq ft', 18750, '750_SQ_FT'),
-      new PatioPackageOption('1100 sq ft', 26400, '1100_SQ_FT'),
-      new PatioPackageOption('1500 sq ft', 35250, '1500_SQ_FT'),
+      new PatioPackageOption('750 sq ft', 22500, '750_SQ_FT'),
+      new PatioPackageOption('1100 sq ft', 33000, '1100_SQ_FT'),
+      new PatioPackageOption('1500 sq ft', 43500, '1500_SQ_FT'),
     ],
     additional: getPatioPackageAdditions([
       PatioPackageAddition.PoolCoping,
@@ -73,13 +73,13 @@ export const patioPackageOptions = {
     ])
   },
   HARDSCAPE_BAR: {
-    price: 4850,
+    price: 5850,
   },
   HARDSCAPE_COUCH: {
-    price: 7850,
+    price: 8850,
   },
   HARDSCAPE_GRILL: {
-    price: 8500
+    price: 9850
   }
 };
 
