@@ -302,7 +302,7 @@ export const patioPackages = {
     `,
     info: [
       {
-        label: `Hardscape Bar  <span class="ml-40">$4,650</span>`,
+        label: `Hardscape Bar  <span class="ml-40">$5,850</span>`,
       },
       {
         label: 'Specifications',
@@ -333,7 +333,7 @@ export const patioPackages = {
     `,
     info: [
       {
-        label: 'Hardscape Couch   <span class="ml-40">$7,850</span>',
+        label: 'Hardscape Couch   <span class="ml-40">$8,850</span>',
       },
       {
         label: 'Specifications',
@@ -367,7 +367,7 @@ export const patioPackages = {
     `,
     info: [
       {
-        label: 'Hardscape Grill Island   <span class="ml-40">$8,500</span>',
+        label: 'Hardscape Grill Island   <span class="ml-40">$9,850</span>',
       },
       {
         label: 'Specifications',
