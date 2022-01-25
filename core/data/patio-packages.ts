@@ -8,8 +8,8 @@ import {
 export const patioPackageOptions = {
   ECONOMY_SERIES: {
     options: [
-      new PatioPackageOption(`15' x 20'`, 9000,'9,000',15_20'),
-      new PatioPackageOption(`20' x 20'`, 12000,'12,000 ', 20_20'),
+      new PatioPackageOption(`15' x 20'`, 9000,'9,000','15_20'),
+      new PatioPackageOption(`20' x 20'`, 12000,'12,000 ', '20_20'),
       new PatioPackageOption(`20' x 25'`, 15000,'15,000', '20_25'),
     ],
     additional: getPatioPackageAdditions([PatioPackageAddition.FirePit, PatioPackageAddition.SittingWall])
