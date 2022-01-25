@@ -75,11 +75,13 @@ export const patioPackageAdditions = [
 export class PatioPackageOption {
   label: string;
   price?: number;
+  pricetext?: string;
   value?: any;
 
-  constructor(label: string, price?: number, value?: any) {
+  constructor(label: string, price?: number, pricetext?: string, value?: any) {
     this.label = label;
     this.price = price;
+    this.pricetext = pricetext;
     this.value = value;
   }
 }
