@@ -51,7 +51,7 @@ export default function PatioPackageDetail() {
                                     <div className="flex justify-between">
                                       <span className="text-light-400">{option.label}</span>
                                       {
-                                        option.pricetext ? (
+                                        option.price ? (
                                           <span className="text-primary font-medium">${option.pricetext}</span>
                                         ) : ''
                                       }
