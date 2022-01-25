@@ -52,7 +52,7 @@ export default function PatioPackageDetail() {
                                       <span className="text-light-400">{option.label}</span>
                                       {
                                         option.price ? (
-                                          <span className="text-primary font-medium">${option.pricetext}</span>
+                                          <span className="text-primary font-medium w-60">${option.pricetext}</span>
                                         ) : ''
                                       }
                                     </div>
